@@ -12,10 +12,11 @@ export default function Projects() {
             <SectionTitle text="Projects" />
             <h3 style={{textAlign: "center"}}>
                         <span style={{fontSize: "24px", fontWeight: "bold"}}> &#10077;</span>
-                        Alone we can do so little. Together we can do so much.  
+                        For the strength of the Pack is the Wolf and the strength of the Wolf
+                        is the Pack.   
                         <span style={{fontSize: "24px", fontWeight: "bold"}}>&#10078;</span>
                         <br/><br/>
-                        <i> —Helen Keller </i>
+                        <i> —Mowgli, The Jungle Book </i>
             </h3>
             <hr/>
             <h4> Ongoing </h4>
@@ -24,9 +25,18 @@ export default function Projects() {
                 title="Sakyadhita"
                 img={Pic}
                 shortDes="Personalized website and internal modification tool for a non-profit."
-                projType = "Team Project"
-                role="Project Manager &bull; Developer "
+                githubLink="lsjf;dfad"
                 >
+                    <div>
+                        <h1> AMIRIT KLSJF:LSDJ </h1>
+                        <p> Hello my name is Amrit </p>
+                        <h1> AMIRIT KLSJF:LSDJ </h1>
+                        <p> Hello my name is Amrit </p>
+                        <h1> AMIRIT KLSJF:LSDJ </h1>
+                        <p> Hello my name is Amrit </p>
+                        <h1> AMIRIT KLSJF:LSDJ </h1>
+                        <p> Hello my name is Amrit </p>
+                    </div>
                 </ProjEntry>
 
                 <ProjEntry
@@ -40,6 +50,15 @@ export default function Projects() {
 
                 <ProjEntry
                 title="UWEAST"
+                img={Pic}
+                shortDes="Personalized website and internal modification tool for a non-profit."
+                projType = "Team Project"
+                role="Project Manager &bull; Developer "
+                >
+                </ProjEntry>
+
+                <ProjEntry
+                title="DMEK"
                 img={Pic}
                 shortDes="Personalized website and internal modification tool for a non-profit."
                 projType = "Team Project"

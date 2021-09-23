@@ -1,0 +1,92 @@
+.proj-entry {
+    border-radius: 20px;
+    /* height: 350px; */
+    background-color: white;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, .3);
+    max-height: 350px;
+
+	-webkit-transition: max-height 0.25s ease-in-out;
+    -moz-transition: max-height 0.25s ease-in-out;
+    -o-transition: max-height 0.25s ease-in-out;
+    transition: max-height 0.25s ease-in-out;
+    
+}
+
+.proj-entry.expanded{
+    /* display: grid; */
+    /* grid-row: span 2; */
+    max-height: 600px;
+}
+
+.webLink{
+
+    background: linear-gradient(var(--primary), #6B8E23);
+    width: 50px;
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.webLink:hover{
+    background: linear-gradient(rgb(131, 128, 128), #495f1d);
+    cursor: pointer;
+}
+
+.webLink.hide{
+    visibility: hidden;
+}
+
+.proj-entry-bg{
+
+    background: url("../media/forest-bg.jpeg") no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 185px;
+    border-radius: 20px 20px 0px 0px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-direction: column;
+
+    /* width: 350px; */
+}
+
+.proj-content {
+    padding: 0px 10px;
+    margin: 0px;
+    overflow-y: auto;
+    max-height: 370px;
+}
+
+.proj-content::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 7px;
+  }
+  .proj-content::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, .5);
+    -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+  }
+.proj-content > h2 {
+    margin: 7px;
+}
+
+.proj-content > h2, a {
+    text-align: center;
+}
+
+.card-toggle-text{
+    color: #0645AD;
+}
+
+.card-toggle-text:hover{
+    cursor: pointer;
+}
