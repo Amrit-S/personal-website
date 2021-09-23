@@ -28,18 +28,7 @@
 }
 
 
-#content-body{
-    display: flex; 
-}
-
-#left-column, #right-column {
-    flex: 1;
-}
-
-#middle-column{
-    flex: 3; 
-}
-
+/* General Content Rules */
 #content-body h4 {
     font-size: 24px;
     margin: 5px 0px;
@@ -48,6 +37,25 @@
 #content-body hr {
     margin-bottom: 20px;
 }
+
+/* Section Layout  */
+.row{
+    display: flex; 
+}
+
+.left-column, .right-column {
+    flex: 1;
+}
+
+.middle-column{
+    flex: 3; 
+}
+
+.middle-column > section {
+    margin: 25px 0px;
+}
+
+/* About Section */
 
 #about-section{
     text-align: center;
@@ -62,4 +70,13 @@
     width: 250px;
     height: 350px;
     background-color: var(--primary);
+}
+
+/* Education Section */
+
+.res-entry{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: flex-start;
 }
