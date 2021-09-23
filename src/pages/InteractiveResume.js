@@ -4,6 +4,8 @@
  import SectionLayout from "../components/SectionLayout";
  import About from "../components/InteractiveSections/About";
  import Education from "../components/InteractiveSections/Education";
+ import Work from "../components/InteractiveSections/Work";
+ import Projects from "../components/InteractiveSections/Projects";
  
  export default function InteractiveResume() {
      return (
@@ -27,6 +29,12 @@
                  </SectionLayout>
                  <SectionLayout bgColor="#d3d3d3">
                      <Education/>
+                 </SectionLayout>
+                 <SectionLayout>
+                     <Work/>
+                 </SectionLayout>
+                 <SectionLayout bgColor="#d3d3d3">
+                     <Projects/>
                  </SectionLayout>
              </div>
          </div>

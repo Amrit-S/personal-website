@@ -70,6 +70,11 @@
     width: 250px;
     height: 350px;
     background-color: var(--primary);
+    border-radius: 20px;
+}
+
+#about-section img {
+    border-radius: 20px;
 }
 
 /* Education Section */
@@ -79,4 +84,63 @@
    flex-direction: row;
    justify-content: center;
    align-items: flex-start;
+}
+
+/* Projects */
+
+.grid-layout{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    gap: 20px;
+}
+
+.proj-entry {
+    border-radius: 20px;
+    height: 350px;
+    background-color: white;
+    
+}
+
+.webLink{
+    
+    background-color: var(--primary);
+    width: 50px;
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 2px solid black;
+}
+
+.proj-entry-bg{
+
+    background: url("../media/forest-bg.jpeg") no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 185px;
+    border-radius: 20px 20px 0px 0px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-direction: column;
+
+    /* width: 350px; */
+}
+
+.proj-content {
+    padding: 0px 10px;
+    margin: 0px;
+}
+
+.proj-content > h2 {
+    margin: 7px;
+}
+
+.proj-content > h2, a {
+    text-align: center;
 }

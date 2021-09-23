@@ -15,7 +15,7 @@ export default function ResEntry({leftTitle, dates, rightTitle, children, locati
                 <br/><br/>
                 {children}
                 <br/>
-                <p> <MapMarker/> {location} </p>
+                <p style={{color: "#0e640e"}}> <MapMarker/> {location} </p>
             </p>
         </div>
     );
