@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import "../css/ProjEntry.css";
 
-export default function ProjEntry({img, title, shortDes, children, webLink = null, githubLink = null}) {
+export default function ProjEntry({img, title, shortDes, dates, projDetails, children, webLink = null, githubLink = null}) {
 
     const [isCardExpanded, setIsCardExpanded] = useState(false);
 
@@ -30,8 +30,13 @@ export default function ProjEntry({img, title, shortDes, children, webLink = nul
 
             {/* Project Information */}
             <section className="proj-content">
+                <div className="quick-details">
+                    <p> <i> {dates} </i>  </p>
+                    <p> <i> {projDetails} </i> </p>
+                </div>
                 <h2> {title} </h2>
                 <hr/>
+               
                 <p> {shortDes} </p>
 
                 {/* Custom Content */}

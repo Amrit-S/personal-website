@@ -76,14 +76,35 @@
     -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
   }
 .proj-content > h2 {
-    margin: 7px;
+    margin: 9px;
+    font-size: 20px;
+}
+
+.proj-content > p {
+    margin: 0px;
 }
 
 .proj-content > h2, a {
     text-align: center;
 }
 
+.quick-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.quick-details p {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
 .card-toggle-text{
+    margin: 0px;
+    padding: 0px;
     color: #0645AD;
 }
 

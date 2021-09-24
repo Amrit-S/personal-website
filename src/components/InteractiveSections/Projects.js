@@ -25,8 +25,9 @@ export default function Projects() {
                 title="Sakyadhita"
                 img={Pic}
                 shortDes="Personalized website and internal modification tool for a non-profit."
-                webLink="hello"
-                githubLink="lsjf;dfad"
+                githubLink="https://www.google.com/"
+                dates="Mar 2021 - Present"
+                projDetails="Team &bull; Project Manager"
                 >
                     <div>
                         <h1> AMIRIT KLSJF:LSDJ </h1>
@@ -41,11 +42,13 @@ export default function Projects() {
                 </ProjEntry>
 
                 <ProjEntry
-                title="Dyanmics"
+                title="Personal Website"
                 img={Pic}
                 shortDes="Personalized website and internal modification tool for a non-profit."
-                projType = "Team Project"
-                role="Project Manager &bull; Developer "
+                webLink="https://www.google.com/"
+                githubLink="https://www.google.com/"
+                dates="Sept 2021"
+                projDetails="Individual"
                 >
                 </ProjEntry>
             </div>
@@ -55,20 +58,44 @@ export default function Projects() {
 
             <div className="grid-layout">
             <ProjEntry
-                title="UWEAST"
+                title="Early Detection of DMEK Graft Rejection"
                 img={Pic}
                 shortDes="Personalized website and internal modification tool for a non-profit."
-                projType = "Team Project"
-                role="Project Manager &bull; Developer "
+                webLink="https://www.google.com/"
+                githubLink="https://www.google.com/"
+                dates="Mar 19 -"
+                projDetails="Team &bull; Project Manager"
+                >
+                </ProjEntry>
+            <ProjEntry
+                title="UWEAST Community Kitchen"
+                img={Pic}
+                shortDes="Personalized website and internal modification tool for a non-profit."
+                webLink="https://www.google.com/"
+                githubLink="https://www.google.com/"
+                dates="Mar 19 -"
+                projDetails="Team &bull; Project Manager"
+                >
+                </ProjEntry>
+            
+            <ProjEntry
+                title="Dynamics Dance Team"
+                img={Pic}
+                shortDes="Personalized website and internal modification tool for a non-profit."
+                webLink="https://www.google.com/"
+                githubLink="https://www.google.com/"
+                dates="Mar 19 -"
+                projDetails="Team &bull; Project Manager"
                 >
                 </ProjEntry>
 
             <ProjEntry
-                title="DMEK"
+                title="TSE Internal Recruitment Tool"
                 img={Pic}
                 shortDes="Personalized website and internal modification tool for a non-profit."
-                projType = "Team Project"
-                role="Project Manager &bull; Developer "
+                githubLink="https://www.google.com/"
+                dates="Mar 19 -"
+                projDetails="Team &bull; Project Manager"
                 >
                 </ProjEntry>
             </div>

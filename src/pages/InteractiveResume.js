@@ -10,6 +10,7 @@
  import Education from "../components/InteractiveSections/Education";
  import Work from "../components/InteractiveSections/Work";
  import Projects from "../components/InteractiveSections/Projects";
+ import Skillset from "../components/InteractiveSections/Skillset";
  import Contact from "../components/InteractiveSections/Contact";
  
  export default function InteractiveResume() {
@@ -73,6 +74,9 @@
                  </SectionLayout>
                  <SectionLayout bgColor="#d3d3d3">
                      <Projects/>
+                 </SectionLayout>
+                 <SectionLayout>
+                     <Skillset/>
                  </SectionLayout>
                  <SectionLayout bgColor="#373737">
                      <Contact/>
