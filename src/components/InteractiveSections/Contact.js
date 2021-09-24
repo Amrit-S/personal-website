@@ -1,6 +1,7 @@
 import React from "react";
 
 import SectionTitle from "../SectionTitle";
+import { SITE_PAGES } from "../../constants/links";
 
 export default function Contact() {
 
@@ -34,7 +35,7 @@ export default function Contact() {
                 </a>
             </div>
             <br/><br/>
-            <p className="contact-additional-info"> Looking for a printable version of my resume? Click here. </p>
+            <p className="contact-additional-info"> Looking for a printable version of my resume? <a href={SITE_PAGES.PRINTABLE_RESUME}> Click here. </a> </p>
         </section>
     );
 }

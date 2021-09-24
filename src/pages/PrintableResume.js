@@ -1,12 +1,19 @@
 import React from "react";
 
+import "../css/PrintableResume.css";
 import NavBar from "../components/NavBar";
+
 
 export default function PrintableResume() {
     return (
-        <div>
-            <NavBar/>
-            <h1> Printable Resume </h1>
+        <div id="printable-resume">
+            <div id="navbar-bg-resume">
+                <NavBar/>
+            </div>
+            
+            <div id="resume-container">
+                <iframe src="https://drive.google.com/file/d/1MAKERlEOfkFhT0PcwqV2gZ_EB8QwFwoY/preview?widget=true&amp;headers=false" height="100%" width="100%"></iframe>
+            </div>
         </div>
     );
 }

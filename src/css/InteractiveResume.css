@@ -141,3 +141,7 @@
     color: rgb(189, 189, 189);
     text-align: center;
 }
+
+.contact-additional-info a:link,  .contact-additional-info a:visited{
+    color: #6B8E23;
+}

@@ -1,0 +1,15 @@
+#resume-container{
+    width: 100%; 
+    height: calc(100vh - 100px);
+}
+
+#navbar-bg-resume{
+    background: url("../media/forest-bg.jpeg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    width: 100%;
+    height: 100px;
+}
