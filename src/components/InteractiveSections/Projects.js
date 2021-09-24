@@ -49,7 +49,8 @@ export default function Projects() {
                 >
                 </ProjEntry>
             </div>
-            <br/>
+            <br/> <br/>
+            <hr/>
             <h4> Completed </h4>
 
             <div className="grid-layout">

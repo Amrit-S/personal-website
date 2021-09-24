@@ -35,7 +35,15 @@ export default function Contact() {
                 </a>
             </div>
             <br/><br/>
-            <p className="contact-additional-info"> Looking for a printable version of my resume? <a href={SITE_PAGES.PRINTABLE_RESUME}> Click here. </a> </p>
+            <p className="contact-additional-info"> 
+                Looking for a printable version of my resume? <a href={SITE_PAGES.PRINTABLE_RESUME}> Click here. </a> 
+                <br/><br/><br/><br/><br/><br/><br/><br/>
+                Site Acknowledgements:
+                <a href="https://icons8.com/icon/" target="_blank" rel="noopener noreferrer"> Icons8 </a>,
+                <a href="https://www.flaticon.com/" target="_blank" rel="noopener noreferrer"> Flaticon Icons </a>,
+                and thematic inspiration from <a href="http://www.pascalvangemert.nl/#/profile" target="_blank" rel="noopener noreferrer">Pascal van Gemert's Website </a> 
+            </p>
+            
         </section>
     );
 }
