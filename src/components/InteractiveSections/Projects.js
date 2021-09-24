@@ -25,6 +25,7 @@ export default function Projects() {
                 title="Sakyadhita"
                 img={Pic}
                 shortDes="Personalized website and internal modification tool for a non-profit."
+                webLink="hello"
                 githubLink="lsjf;dfad"
                 >
                     <div>
@@ -47,8 +48,12 @@ export default function Projects() {
                 role="Project Manager &bull; Developer "
                 >
                 </ProjEntry>
+            </div>
+            <br/>
+            <h4> Completed </h4>
 
-                <ProjEntry
+            <div className="grid-layout">
+            <ProjEntry
                 title="UWEAST"
                 img={Pic}
                 shortDes="Personalized website and internal modification tool for a non-profit."
@@ -57,7 +62,7 @@ export default function Projects() {
                 >
                 </ProjEntry>
 
-                <ProjEntry
+            <ProjEntry
                 title="DMEK"
                 img={Pic}
                 shortDes="Personalized website and internal modification tool for a non-profit."
@@ -66,7 +71,6 @@ export default function Projects() {
                 >
                 </ProjEntry>
             </div>
-            <h4> Completed </h4>
         </section>
     );
 }

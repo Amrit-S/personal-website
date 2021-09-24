@@ -2,10 +2,10 @@ import React from "react";
 
 import "../css/SectionTitle.css";
 
-export default function SectionTitle({text}) {
+export default function SectionTitle({text, style}) {
     return (
-        <div className="section-title">
-            <h2> {text} </h2>
+        <div className="section-title" style={style}>
+            <h2 className="paint-bg"> {text} </h2>
         </div>
     );
 }

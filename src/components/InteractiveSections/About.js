@@ -33,7 +33,7 @@ export default function About() {
                     <p style={{textAlign: "center"}}>
                         <span style={{fontSize: "24px", fontWeight: "bold"}}> &#10077; </span>
                         <span style={{fontSize: "20px", textAlign: "right"}}>
-                        Do not take life too seriously. You will never get out if it alive even if you try.
+                        Do not take life too seriously. You will never get out of it alive even if you try.
                         </span>
                         
                         <span style={{fontSize: "24px", fontWeight: "bold"}}>&#10078;</span>

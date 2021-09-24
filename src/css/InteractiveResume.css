@@ -38,6 +38,15 @@
     margin-bottom: 20px;
 }
 
+.paint-bg, .contact-entry:hover {
+    background: url("../media/brush-stroke.svg");
+    background-repeat: no-repeat;
+    background-size: 100% 95%;
+    padding: 8px 15px;
+    width: fit-content;
+    margin: 0;
+}
+
 /* Section Layout  */
 .row{
     display: flex; 
@@ -52,7 +61,7 @@
 }
 
 .middle-column > section {
-    margin: 25px 0px;
+    margin: 55px 0px;
 }
 
 /* About Section */
@@ -69,7 +78,8 @@
 .headshot-backdrop{
     width: 250px;
     height: 350px;
-    background-color: var(--primary);
+    background: url("../media/forest-bg.jpeg");
+    background-position: left;
     border-radius: 20px;
 }
 
@@ -92,4 +102,42 @@
     display: grid;
     grid-template-columns: repeat(2, 50%);
     gap: 20px;
+}
+
+#projects-section > h4 {
+    padding: 20px 0px;
+}
+
+/* Contact */
+
+#contact-section{
+    color: white;
+}
+
+.contract-entry-wrapper {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact-entry {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: rgb(189, 189, 189);
+    text-decoration: none;
+}
+
+.contact-entry:hover{
+    color: white;
+    cursor: pointer;
+    padding: 0;
+}
+
+.contact-additional-info {
+    color: rgb(189, 189, 189);
+    text-align: center;
 }

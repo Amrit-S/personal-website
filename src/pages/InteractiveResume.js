@@ -6,6 +6,7 @@
  import Education from "../components/InteractiveSections/Education";
  import Work from "../components/InteractiveSections/Work";
  import Projects from "../components/InteractiveSections/Projects";
+ import Contact from "../components/InteractiveSections/Contact";
  
  export default function InteractiveResume() {
      return (
@@ -35,6 +36,9 @@
                  </SectionLayout>
                  <SectionLayout bgColor="#d3d3d3">
                      <Projects/>
+                 </SectionLayout>
+                 <SectionLayout bgColor="#373737">
+                     <Contact/>
                  </SectionLayout>
              </div>
          </div>
