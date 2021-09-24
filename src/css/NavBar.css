@@ -26,3 +26,20 @@
 .navbar-entry-active{
     color: white;
 }
+
+@media only screen and (max-width: 900px) {
+    #navbar{
+        justify-content: space-evenly;
+    }
+
+    .navbar-entry{
+        margin-right: 0px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    #navbar{
+        height: 10vh;
+    }
+}
+

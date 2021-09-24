@@ -6,7 +6,7 @@ export default function ResEntry({leftTitle, dates, rightTitle, children, locati
     return (
         <div className="res-entry">
             <p style={{flex: "1"}}> 
-                <b> {leftTitle} </b> 
+                <b className="left-title"> {leftTitle} </b> 
                 <br/><br/>
                 {dates}
             </p>

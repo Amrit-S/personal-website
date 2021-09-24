@@ -111,7 +111,7 @@
     border-radius: 10px;
 }
 
-/* Education Section */
+/* Education + Work Experience Section */
 
 .res-entry{
    display: flex;
@@ -119,6 +119,12 @@
    justify-content: center;
    align-items: flex-start;
 }
+
+.res-entry .left-title {
+    font-size: 17px;
+}
+
+
 
 /* Projects */
 
@@ -166,6 +172,56 @@
     text-align: center;
 }
 
-.contact-additional-info a:link,  .contact-additional-info a:visited {
+.contact-additional-info a:link, .contact-additional-info a:visited {
     color: #6B8E23;
+}
+
+@media only screen and (max-width: 1180px) {
+    .about-info{
+        flex-direction: column;
+    }
+
+}
+
+@media only screen and (max-width: 1050px) {
+    .grid-layout{
+        display: grid;
+        grid-template-columns: repeat(1, 100%);
+        gap: 20px;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+
+    .res-entry{
+        flex-direction: column;
+     }
+
+     .res-entry .left-title {
+        font-size: 19px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .contract-entry-wrapper {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    #title-section #title-arrow{
+        position: absolute;
+        bottom: 0%;
+        right: 5%;
+        background-color: white;
+        width: max(15vw, 50px);
+        height: max(11vw, 65px);
+        border-radius: 5px;
+        border-bottom: 2px solid black;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .left-column, .right-column{
+        display: none;
+    }
 }

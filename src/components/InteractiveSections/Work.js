@@ -18,7 +18,7 @@ export default function Work() {
             <hr/>
 
             <ResEntry
-            leftTitle="University of California, San Diego | Jacob's School of Engineering"
+            leftTitle="University of California, San Diego"
             dates="Sept 2019 - Present"
             rightTitle="Computer Science Course Tutor"
             location="San Diego, USA"
@@ -63,7 +63,7 @@ export default function Work() {
             </ResEntry>
 
             <ResEntry
-            leftTitle="University of California, San Diego | Jacob's School of Engineering"
+            leftTitle="University of California, San Diego"
             dates="July - Sept 2019"
             rightTitle="SPIS Mentor (Specialization: Machine Learning)"
             location="San Diego, USA"

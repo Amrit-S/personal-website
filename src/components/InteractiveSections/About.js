@@ -13,7 +13,7 @@ export default function About() {
             <h3> Web Developer &bull; Student ML Researcher &bull; Baja Blast Enthusiast</h3>
             <hr/>
             <div className="about-info">
-                <div>  
+                <div id="headshot-container">  
                     <div className="headshot-backdrop"></div>
                     <img src={PersonalHeadshot} alt="Amrit Headshot" width="250px" height="auto" style={{margin: "-330px 30px 0px 30px"}} />
                     
