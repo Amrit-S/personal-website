@@ -1,0 +1,45 @@
+#scroll-bar{
+    visibility: hidden;
+    position: fixed;
+
+    z-index: 9999;
+
+    width: 100px;
+    height: 400px;
+    background-color: black;
+    border-radius: 5px;
+
+    top: 100px;
+    right: 5%;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+#scroll-bar.visible {
+    visibility: visible;
+}
+
+.scroll-entry{
+
+    color: white; 
+    font-size: 16px;
+
+    flex: 1;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll-entry:hover{
+    cursor: pointer;
+    color: rgb(189, 189, 189);
+}
+
+.active-section {
+    background-color: #6B8E23;
+    color: white !important;
+}

@@ -20,12 +20,35 @@
 
 #title-section #title-arrow{
     position: absolute;
-    bottom: -7%;
-    right: 0%;
-    transform: translate(-50%, -50%);
+    bottom: 0%;
+    right: 5%;
     background-color: white;
-    padding: 30px 40px;
+    width: 100px;
+    height: 75px;
+    border-radius: 5px;
+    border-bottom: 2px solid black;
 }
+
+#title-section #title-arrow:hover{
+    cursor: pointer;
+}
+
+#title-arrow img {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: MoveUpDown 1s linear infinite;
+}
+
+@keyframes MoveUpDown {
+    0%, 100% {
+      bottom: 0px;
+    }
+    50% {
+      bottom: 10px;
+    }
+  }
 
 
 /* General Content Rules */
@@ -49,6 +72,7 @@
 
 /* Section Layout  */
 .row{
+    /* position: relative; */
     display: flex; 
 }
 
@@ -80,11 +104,11 @@
     height: 350px;
     background: url("../media/forest-bg.jpeg");
     background-position: left;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 #about-section img {
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 /* Education Section */

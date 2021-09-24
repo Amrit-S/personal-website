@@ -6,6 +6,7 @@ import SectionTitle from "../SectionTitle";
 import PersonalHeadshot from "../../media/headshot.jpg";
 
 export default function About() {
+
     return (
         <section id="about-section">
             <SectionTitle text="At A Glance" />
