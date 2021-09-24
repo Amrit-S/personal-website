@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { SITE_PAGES } from "./constants/links";
 
 import InteractiveResume from "./pages/InteractiveResume";
+import PrintableResume from "./pages/PrintableResume";
 
 function App() {
     return (
@@ -11,6 +12,9 @@ function App() {
             <Switch>
                 <Route exact path={SITE_PAGES.INTERACTIVE_RESUME}>
                     <InteractiveResume/>
+                </Route>
+                <Route exact path={SITE_PAGES.PRINTABLE_RESUME}>
+                    <PrintableResume/>
                 </Route>
             </Switch>
         </Router>

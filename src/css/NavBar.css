@@ -1,0 +1,28 @@
+#navbar {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    background: rgba(0,0,0, 0.4); 
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar-entry{
+    margin-right: 80px;
+    font-size: 18px;
+
+    text-decoration: none;
+    color: rgb(189, 189, 189);
+}
+
+.navbar-entry:hover{
+    cursor: pointer;
+    color: white;
+}
+
+.navbar-entry-active{
+    color: white;
+}

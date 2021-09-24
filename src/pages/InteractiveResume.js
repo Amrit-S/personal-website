@@ -1,6 +1,7 @@
  import React from "react";
  import "../css/InteractiveResume.css";
 
+ import NavBar from "../components/NavBar";
  import SectionLayout from "../components/SectionLayout";
  import About from "../components/InteractiveSections/About";
  import Education from "../components/InteractiveSections/Education";
@@ -11,6 +12,7 @@
  export default function InteractiveResume() {
      return (
          <div>
+             <NavBar/>
              {/* Section #1 - Intro/Title */}
              <section id="title-section">
                  <section id="title-text">
