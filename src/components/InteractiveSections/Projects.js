@@ -5,6 +5,13 @@ import ProjEntry from "../ProjEntry";
 
 import Pic from "../../media/Sakyadhita.png";
 
+
+const GITHUB_ICON = "https://img.icons8.com/material-outlined/24/000000/github.png";
+const EXTERNAL_LINK_ICON = "https://img.icons8.com/ios-glyphs/128/000000/external-link.png";
+
+const GITHUB_TITLE = "GitHub Source Code";
+const EXTERNAL_LINK_TITLE = "External Website";
+
 export default function Projects() {
 
     return (
@@ -25,7 +32,9 @@ export default function Projects() {
                 title="Sakyadhita"
                 img={Pic}
                 shortDes="Personalized website and internal modification tool for a non-profit."
-                githubLink="https://www.google.com/"
+                linksArr={[
+                    {url: "https:google.com", img: GITHUB_ICON, title: GITHUB_TITLE},
+                ]}
                 dates="Mar 2021 - Present"
                 projDetails="Team &bull; Project Manager"
                 >
@@ -45,8 +54,10 @@ export default function Projects() {
                 title="Personal Website"
                 img={Pic}
                 shortDes="Personalized website and internal modification tool for a non-profit."
-                webLink="https://www.google.com/"
-                githubLink="https://www.google.com/"
+                linksArr={[
+                    {url: "https:google.com", img: GITHUB_ICON, title: GITHUB_TITLE},
+                    {url: "https:google.com", img: GITHUB_ICON, title: GITHUB_TITLE}
+                ]}
                 dates="Sept 2021"
                 projDetails="Individual"
                 >
@@ -61,8 +72,10 @@ export default function Projects() {
                 title="Early Detection of DMEK Graft Rejection"
                 img={Pic}
                 shortDes="Personalized website and internal modification tool for a non-profit."
-                webLink="https://www.google.com/"
-                githubLink="https://www.google.com/"
+                linksArr={[
+                    {url: "https:google.com", img: GITHUB_ICON, title: GITHUB_TITLE},
+                    {url: "https:google.com", img: GITHUB_ICON, title: GITHUB_TITLE}
+                ]}
                 dates="Mar 19 -"
                 projDetails="Team &bull; Project Manager"
                 >
@@ -71,8 +84,10 @@ export default function Projects() {
                 title="UWEAST Community Kitchen"
                 img={Pic}
                 shortDes="Personalized website and internal modification tool for a non-profit."
-                webLink="https://www.google.com/"
-                githubLink="https://www.google.com/"
+                linksArr={[
+                    {url: "https:google.com", img: GITHUB_ICON, title: GITHUB_TITLE},
+                    {url: "https:google.com", img: GITHUB_ICON, title: GITHUB_TITLE}
+                ]}
                 dates="Mar 19 -"
                 projDetails="Team &bull; Project Manager"
                 >
@@ -82,8 +97,10 @@ export default function Projects() {
                 title="Dynamics Dance Team"
                 img={Pic}
                 shortDes="Personalized website and internal modification tool for a non-profit."
-                webLink="https://www.google.com/"
-                githubLink="https://www.google.com/"
+                linksArr={[
+                    {url: "https:google.com", img: GITHUB_ICON, title: GITHUB_TITLE},
+                    {url: "https:google.com", img: GITHUB_ICON, title: GITHUB_TITLE}
+                ]}
                 dates="Mar 19 -"
                 projDetails="Team &bull; Project Manager"
                 >
@@ -93,7 +110,10 @@ export default function Projects() {
                 title="TSE Internal Recruitment Tool"
                 img={Pic}
                 shortDes="Personalized website and internal modification tool for a non-profit."
-                githubLink="https://www.google.com/"
+                linksArr={[
+                    {url: "https:google.com", img: GITHUB_ICON, title: GITHUB_TITLE},
+                    {url: "https:google.com", img: GITHUB_ICON, title: GITHUB_TITLE}
+                ]}
                 dates="Mar 19 -"
                 projDetails="Team &bull; Project Manager"
                 >

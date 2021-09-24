@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import "../css/ProjEntry.css";
 
-export default function ProjEntry({img, title, shortDes, dates, projDetails, children, webLink = null, githubLink = null}) {
+export default function ProjEntry({img, title, shortDes, dates, projDetails, children, linksArr}) {
 
     const [isCardExpanded, setIsCardExpanded] = useState(false);
 
@@ -16,16 +16,23 @@ export default function ProjEntry({img, title, shortDes, dates, projDetails, chi
             
             {/* Project Image  */}
             <div className="proj-entry-bg" style={{backgroundImage: `url("${img}")`,}}>
+                
+                {linksArr.map((linkInfo, i) => (
+                     <a className="webLink" style={{borderTopRightRadius: i === 0 ? "20px": "0px"}} title={linkInfo['title']} href={linkInfo['url']} target="_blank" rel="noopener noreferrer"> 
+                        <img src={linkInfo['img']} alt={linkInfo['title']} width="25" height="25"/>
+                     </a>
+                ))}
 
                 {/* External Link */}
-                 <a className={`webLink ${webLink ? '':'hide'}`} style={{borderTopRightRadius: "20px"}} title="Project Link" href={webLink} target="_blank" rel="noopener noreferrer"> 
+                 {/* <a className={`webLink ${webLink ? '':'hide'}`} style={{borderTopRightRadius: "20px"}} title="Project Link" href={webLink} target="_blank" rel="noopener noreferrer"> 
                         <img src="https://img.icons8.com/ios-glyphs/128/000000/external-link.png" alt="External Link" width="25" height="25"/>
-                </a>
+                </a> */}
 
                 {/* GitHub Link */}
-                <a className={`webLink ${githubLink ? '':'hide'}`} title="GitHub Source Code" href={githubLink} target="_blank" rel="noopener noreferrer"> 
+                {/* <a className={`webLink ${githubLink ? '':'hide'}`} title="GitHub Source Code" href={githubLink} target="_blank" rel="noopener noreferrer"> 
                         <img src="https://img.icons8.com/material-outlined/24/000000/github.png" alt="GitHub Link" width="25" height="25"/>
-                </a>
+                </a> */}
+                
             </div>
 
             {/* Project Information */}
