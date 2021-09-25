@@ -24,17 +24,27 @@ export default function About() {
                 </div>
                 <div style={{textAlign: "left"}}>  
                     <h4> About Me </h4>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    In tellus integer feugiat scelerisque varius morbi enim. Nunc mi ipsum faucibus vitae aliquet nec. Ut morbi tincidunt augue interdum 
-                    velit euismod in. Pharetra convallis posuere morbi leo urna molestie. Sapien faucibus et molestie ac feugiat sed lectus vestibulum 
-                    mattis. Fermentum et sollicitudin ac orci phasellus. Donec ac odio tempor orci. Scelerisque eu ultrices vitae auctor eu augue. 
-                    Enim ut sem viverra aliquet eget. At quis risus sed vulputate odio ut enim blandit.
+                    I'm currently a 4th year Computer Science major studying at UC San Diego, and will
+                    be graduating in the upcoming fall of this year! I'm super excited to be joining industry full time soon, and 
+                    am actively seeking a company that will be a great cultural fit. 
+                    
+                    <br/><br/>
+                    Since my freshman year of college, I worked 
+                    as a researcher and software developer for a biomedical lab on campus, recently finishing a deep learning project 
+                    on early detection of DMEK graft rejections utilizing CNNs. Through a campus organization, I've also developed and managed a 
+                    couple of web development projects for some local non-profits, including customized websites, 
+                    food ordering applications, and internal management tools. 
+
+                    <br/><br/>
+                    I also love long walks out in nature, gourging on Taco Bell's Baja Blast Freezes, and multi-tasking on the latest
+                    Turkish drama alongside a good book. Currently it's Nietzsche's <i> Thus Spoke Zarathusthra </i>.
+
                     <br/><br/>
                     <h4> Personal Philosophy </h4>
                     <p style={{textAlign: "center"}}>
                         <span style={{fontSize: "24px", fontWeight: "bold"}}> &#10077; </span>
-                        <span style={{fontSize: "20px", textAlign: "right"}}>
-                        Do not take life too seriously. You will never get out of it alive even if you try.
+                        <span style={{fontSize: "18px", textAlign: "right"}}>
+                        Don't take life too seriously. You will never get out of it alive.
                         </span>
                         
                         <span style={{fontSize: "24px", fontWeight: "bold"}}>&#10078;</span>

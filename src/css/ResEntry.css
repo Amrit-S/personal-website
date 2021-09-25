@@ -1,0 +1,27 @@
+/* Education + Work Experience Section */
+
+.res-entry{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+ }
+ 
+ .res-entry .left-title {
+     font-size: 17px;
+ }
+
+ @media only screen and (max-width: 950px) {
+
+    .res-entry{
+        flex-direction: column;
+     }
+
+     .res-entry .left-title {
+        font-size: 19px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    
+}

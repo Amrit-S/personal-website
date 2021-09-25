@@ -1,7 +1,5 @@
 import React from "react";
 
-import ScrollBar from "../components/ScrollBar";
-
 export default function SectionLayout({children, bgColor = "white", injectScrollBar = false}) {
     return (
         <div className="row" style={{backgroundColor: bgColor}}>

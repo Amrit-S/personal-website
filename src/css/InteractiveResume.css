@@ -70,6 +70,15 @@
     padding: 8px 15px;
 }
 
+#content-body a:link,  #content-body a:visited{
+    color: #0e640e;
+    text-decoration: none;
+}
+
+#content-body a:hover{
+    text-decoration: underline;
+}
+
 /* Section Layout  */
 .row{
     /* position: relative; */
@@ -111,21 +120,6 @@
     border-radius: 10px;
 }
 
-/* Education + Work Experience Section */
-
-.res-entry{
-   display: flex;
-   flex-direction: row;
-   justify-content: center;
-   align-items: flex-start;
-}
-
-.res-entry .left-title {
-    font-size: 17px;
-}
-
-
-
 /* Projects */
 
 .grid-layout{
@@ -144,6 +138,10 @@
     color: white;
 }
 
+#contact-section a:link, #contact-section a:visited{
+    color: #6B8E23;
+}
+
 .contract-entry-wrapper {
     margin-top: 50px;
     display: flex;
@@ -157,14 +155,14 @@
     justify-content: center;
     align-items: center;
 
-    color: rgb(189, 189, 189);
-    text-decoration: none;
+    color: rgb(189, 189, 189) !important;
 }
 
 .contact-entry:hover{
-    color: white;
+    color: white !important;
     cursor: pointer;
     padding: 0;
+    text-decoration: none !important;
 }
 
 .contact-additional-info {
@@ -188,17 +186,6 @@
         display: grid;
         grid-template-columns: repeat(1, 100%);
         gap: 20px;
-    }
-}
-
-@media only screen and (max-width: 950px) {
-
-    .res-entry{
-        flex-direction: column;
-     }
-
-     .res-entry .left-title {
-        font-size: 19px;
     }
 }
 

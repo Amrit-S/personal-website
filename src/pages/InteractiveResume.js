@@ -56,7 +56,7 @@
                  </section>
 
                  <section id="title-arrow" ref={navBarRef} onClick={handleArrowClick}>
-                     <img src={DoubleArrow} width="28" height="28"/>
+                     <img src={DoubleArrow} alt="Arrow Icon" width="28" height="28"/>
                  </section>
              </section>
 

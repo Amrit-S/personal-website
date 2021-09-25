@@ -17,32 +17,35 @@ export default function Education() {
             </h3>
             <hr/>
             <ResEntry
-            leftTitle="University of California, San Diego"
+            leftTitle="UC San Diego"
             dates="Sept 2018 - Present"
-            rightTitle="B.S. Computer Science"
+            rightTitle="B.S. Computer Science (Expected Dec 2021)"
             location="San Diego, USA"
             >
 
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                In tellus integer feugiat scelerisque varius morbi enim. Nunc mi ipsum faucibus vitae aliquet nec. Ut morbi tincidunt augue interdum 
-                velit euismod in. Pharetra convallis posuere morbi leo urna molestie. Sapien faucibus et molestie ac feugiat sed lectus vestibulum 
-                mattis. Fermentum et sollicitudin ac orci phasellus. Donec ac odio tempor orci. Scelerisque eu ultrices vitae auctor eu augue. 
-                Enim ut sem viverra aliquet eget. At quis risus sed vulputate odio ut enim blandit.
+                Took courses on Data Structures, Object Oriented Programming (Java, C++), Algorithm Design, 
+                Computational Statistics, Software Engineering Principles, and Web Development. Elective courses primarily on 
+                Machine Learning and Databases (SQL).
+                <br/><br/>
+                Honors: Provost's Honors, Two Academic Scholarships
+                <br/><br/>
+                GPA: 3.94/4.0
 
             </ResEntry>
 
             <ResEntry
             leftTitle="Irvine Valley College"
             dates="Sept 2014 - May 2018"
-            rightTitle="B.S. Computer Science"
+            rightTitle="A.A. in Liberal Studies"
             location="Irvine, USA"
             >
 
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                In tellus integer feugiat scelerisque varius morbi enim. Nunc mi ipsum faucibus vitae aliquet nec. Ut morbi tincidunt augue interdum 
-                velit euismod in. Pharetra convallis posuere morbi leo urna molestie. Sapien faucibus et molestie ac feugiat sed lectus vestibulum 
-                mattis. Fermentum et sollicitudin ac orci phasellus. Donec ac odio tempor orci. Scelerisque eu ultrices vitae auctor eu augue. 
-                Enim ut sem viverra aliquet eget. At quis risus sed vulputate odio ut enim blandit.
+                Degree focus on Teacher Education and Social and Behavioral Sciences. Concurrent enrollment
+                with high school on college GED requirements.
+                <br/><br/>
+                Honors: Summa Cum Laude
+                <br/><br/>
+                GPA: 4.0/4.0
 
             </ResEntry>
         </section>
