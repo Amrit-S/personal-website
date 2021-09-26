@@ -3,6 +3,8 @@ import React from "react";
 import ResEntry from "../ResEntry";
 import SectionTitle from "../SectionTitle";
 
+import { Link } from 'react-scroll';
+
 export default function Work() {
 
     return (
@@ -43,7 +45,8 @@ export default function Work() {
                 Joined as a front-end developer on an android application targeted to supplement testing analysis using a lab-made 
                 Glaucoma biomedical device. Later worked as a lead researcher on a machine learning project focused on early detection
                 of DMEK corneal graft rejections, utilzing image segmentation, time series analysis, and transfer learning on the
-                VGG16 Convolutional Neural Network. Designed and developed a web application that packages the aforementioned research
+                VGG16 Convolutional Neural Network. Designed and developed a <Link className="section-link" to="DMEK-Project" spy={true} smooth={true} duration={500} > web application </Link> 
+               that packages the aforementioned research
                 into a usable tool for DMEK physicians to aid in graft rejection diagnosis. 
 
 

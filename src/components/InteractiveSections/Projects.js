@@ -3,7 +3,12 @@ import React from "react";
 import SectionTitle from "../SectionTitle";
 import ProjEntry from "../ProjEntry";
 
-import Pic from "../../media/Sakyadhita.png";
+import SakyadhitaImg from "../../media/Sakyadhita.png";
+import PersonalWebImg from "../../media/Personal-Website.png";
+import DMEKImg from "../../media/DMEK-Tool.png";
+import UWEASTImg from "../../media/UWEAST.png";
+import DynamicsImg from "../../media/Dynamics.png";
+import TSERecruitmentImg from "../../media/TSERecruitment.png";
 
 
 const GITHUB_ICON = "https://img.icons8.com/material-outlined/24/000000/github.png";
@@ -30,10 +35,10 @@ export default function Projects() {
             <div className="grid-layout">
                 <ProjEntry
                 title="Sakyadhita"
-                img={Pic}
-                shortDes="Personalized website and internal modification tool for a non-profit."
+                img={SakyadhitaImg}
+                shortDes="Revamped public website and internal modification tool for a Buddhist non-profit built on SERN stack."
                 linksArr={[
-                    {url: "https:google.com", img: GITHUB_ICON, title: GITHUB_TITLE},
+                    {url: "https://github.com/TritonSE/SI-Website-Revamp", img: GITHUB_ICON, title: GITHUB_TITLE},
                 ]}
                 dates="Mar 2021 - Present"
                 projDetails="Team &bull; Project Manager"
@@ -52,13 +57,12 @@ export default function Projects() {
 
                 <ProjEntry
                 title="Personal Website"
-                img={Pic}
-                shortDes="Personalized website and internal modification tool for a non-profit."
+                img={PersonalWebImg}
+                shortDes="Built this website using ReactJS. Currently integrating data analytics utilizing MongoDB/Mongoose."
                 linksArr={[
-                    {url: "https:google.com", img: GITHUB_ICON, title: GITHUB_TITLE},
-                    {url: "https:google.com", img: GITHUB_ICON, title: GITHUB_TITLE}
+                    {url: "https://github.com/Amrit-S/personal-website", img: GITHUB_ICON, title: GITHUB_TITLE}
                 ]}
-                dates="Sept 2021"
+                dates="Sept 2021 - Present"
                 projDetails="Individual"
                 >
                 </ProjEntry>
@@ -69,53 +73,50 @@ export default function Projects() {
 
             <div className="grid-layout">
             <ProjEntry
-                title="Early Detection of DMEK Graft Rejection"
-                img={Pic}
-                shortDes="Personalized website and internal modification tool for a non-profit."
+                id="DMEK-Project"
+                title="DMEK Analysis Tool"
+                img={DMEKImg}
+                shortDes="A supplementary analysis tool targeted for early detection of graft rejection in post-DMEK patients, utilizing machine learning techniques."
                 linksArr={[
-                    {url: "https:google.com", img: GITHUB_ICON, title: GITHUB_TITLE},
-                    {url: "https:google.com", img: GITHUB_ICON, title: GITHUB_TITLE}
+                    {url: "http://3.12.201.71/", img: EXTERNAL_LINK_ICON, title: EXTERNAL_LINK_TITLE},
+                    {url: "https://github.com/Amrit-S/analysis-tool-website", img: GITHUB_ICON, title: GITHUB_TITLE}
                 ]}
-                dates="Mar 19 -"
-                projDetails="Team &bull; Project Manager"
+                dates="Jan 2020 - June 2021"
+                projDetails="Team &bull; Developer &bull; Researcher"
                 >
                 </ProjEntry>
             <ProjEntry
-                title="UWEAST Community Kitchen"
-                img={Pic}
-                shortDes="Personalized website and internal modification tool for a non-profit."
+                title="Baraka & Bilal Catering"
+                img={UWEASTImg}
+                shortDes="WebApp that allows for online food ordering of East African cuisine, and site management for a San Diego non-profit. Built on MERN stack."
                 linksArr={[
-                    {url: "https:google.com", img: GITHUB_ICON, title: GITHUB_TITLE},
+                    {url: "https:google.com", img: EXTERNAL_LINK_ICON, title: EXTERNAL_LINK_TITLE},
                     {url: "https:google.com", img: GITHUB_ICON, title: GITHUB_TITLE}
                 ]}
-                dates="Mar 19 -"
+                dates="Oct 2020 - Jan 2021"
                 projDetails="Team &bull; Project Manager"
                 >
                 </ProjEntry>
             
             <ProjEntry
                 title="Dynamics Dance Team"
-                img={Pic}
-                shortDes="Personalized website and internal modification tool for a non-profit."
+                img={DynamicsImg}
+                shortDes="Personalized website for a San Jose based dance studio. Built using ReactJS."
                 linksArr={[
-                    {url: "https:google.com", img: GITHUB_ICON, title: GITHUB_TITLE},
-                    {url: "https:google.com", img: GITHUB_ICON, title: GITHUB_TITLE}
+                    {url: "https://dynamicsperformanceteam.com/#/", img: EXTERNAL_LINK_ICON, title: EXTERNAL_LINK_TITLE},
+                    {url: "https://github.com/TritonSE/DT-Website", img: GITHUB_ICON, title: GITHUB_TITLE}
                 ]}
-                dates="Mar 19 -"
-                projDetails="Team &bull; Project Manager"
+                dates="Jan 2019 - Jun 2019"
+                projDetails="Team &bull; Developer"
                 >
                 </ProjEntry>
 
             <ProjEntry
                 title="TSE Internal Recruitment Tool"
-                img={Pic}
-                shortDes="Personalized website and internal modification tool for a non-profit."
-                linksArr={[
-                    {url: "https:google.com", img: GITHUB_ICON, title: GITHUB_TITLE},
-                    {url: "https:google.com", img: GITHUB_ICON, title: GITHUB_TITLE}
-                ]}
-                dates="Mar 19 -"
-                projDetails="Team &bull; Project Manager"
+                img={TSERecruitmentImg}
+                shortDes="Utilized by an UC San Diego engineering org to streamline their heavy recruitment process."
+                dates="Feb 2019 - April 2019"
+                projDetails="Team &bull; Developer"
                 >
                 </ProjEntry>
             </div>

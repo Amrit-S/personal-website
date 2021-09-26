@@ -120,6 +120,17 @@
     border-radius: 10px;
 }
 
+/* Work */
+
+.section-link {
+    color: #0e640e;
+}
+
+.section-link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 /* Projects */
 
 .grid-layout{

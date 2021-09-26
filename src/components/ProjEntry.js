@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import "../css/ProjEntry.css";
 
-export default function ProjEntry({img, title, shortDes, dates, projDetails, children, linksArr}) {
+export default function ProjEntry({id=null, img, title, shortDes, dates, projDetails, children, linksArr = []}) {
 
     const [isCardExpanded, setIsCardExpanded] = useState(false);
 
@@ -12,7 +12,7 @@ export default function ProjEntry({img, title, shortDes, dates, projDetails, chi
 
     return (
 
-        <div className={`proj-entry ${isCardExpanded ? 'expanded':''}`}>
+        <div className={`proj-entry ${isCardExpanded ? 'expanded':''}`} id={id}>
             
             {/* Project Image  */}
             <div className="proj-entry-bg" style={{backgroundImage: `url("${img}")`,}}>
