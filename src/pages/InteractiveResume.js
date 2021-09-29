@@ -63,19 +63,19 @@
              <ScrollBar/>
 
              <div id="content-body">
-                 <SectionLayout injectScrollBar={true}>
+                 <SectionLayout leftColClass="book-bg">
                      <About scrollBarCallback={scrollBarCallback}/>
                  </SectionLayout>
                  <SectionLayout bgColor="#d3d3d3">
                      <Education/>
                  </SectionLayout>
-                 <SectionLayout>
+                 <SectionLayout leftColClass="book-bg">
                      <Work/>
                  </SectionLayout>
                  <SectionLayout bgColor="#d3d3d3">
                      <Projects/>
                  </SectionLayout>
-                 <SectionLayout>
+                 <SectionLayout leftColClass="book-bg">
                      <Skillset/>
                  </SectionLayout>
                  <SectionLayout bgColor="#373737">

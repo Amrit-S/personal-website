@@ -10,7 +10,7 @@ export default function About() {
     return (
         <section id="about-section">
             <SectionTitle text="At A Glance" />
-            <h3> Web Developer &bull; Student ML Researcher &bull; Baja Blast Enthusiast</h3>
+            <h3> Web Developer &bull; Student ML Researcher &bull; Avid Learner </h3>
             <hr/>
             <div className="about-info">
                 <div id="headshot-container">  

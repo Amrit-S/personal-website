@@ -120,6 +120,20 @@
     border-radius: 10px;
 }
 
+.book-bg {
+
+    width: 100%;
+    background: url("../media/vine.png") no-repeat center center; 
+    /* background-size: 80% auto; */
+    /* width: 100%;
+
+    background: url("../media/book.jpeg") repeat center center; 
+    background-size: 80% auto; */
+    
+    
+    /* margin: 0px 30px; */
+}
+
 /* Work */
 
 .section-link {
@@ -139,8 +153,28 @@
     gap: 20px;
 }
 
-#projects-section > h4 {
+#projects-section > h4, #skillset-section > h4 {
     padding: 20px 0px;
+}
+
+/* Skillset */
+
+.skillset-subsection {
+    display: flex;
+    flex-direction: row;
+}
+
+.skillset-subsection > div {
+    flex: 1;
+}
+
+.skillset-subsection > div:nth-child(2) {
+    margin-left: 30px;
+}
+
+#skillset-section > h5 {
+    font-size: 20px;
+    margin: 20px 0px;
 }
 
 /* Contact */

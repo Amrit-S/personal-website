@@ -90,8 +90,8 @@ export default function Projects() {
                 img={UWEASTImg}
                 shortDes="WebApp that allows for online food ordering of East African cuisine, and site management for a San Diego non-profit. Built on MERN stack."
                 linksArr={[
-                    {url: "https:google.com", img: EXTERNAL_LINK_ICON, title: EXTERNAL_LINK_TITLE},
-                    {url: "https:google.com", img: GITHUB_ICON, title: GITHUB_TITLE}
+                    {url: "https://barakabilal.herokuapp.com", img: EXTERNAL_LINK_ICON, title: EXTERNAL_LINK_TITLE},
+                    {url: "https://github.com/TritonSE/UWEAST-Community-Kitchen", img: GITHUB_ICON, title: GITHUB_TITLE}
                 ]}
                 dates="Oct 2020 - Jan 2021"
                 projDetails="Team &bull; Project Manager"
