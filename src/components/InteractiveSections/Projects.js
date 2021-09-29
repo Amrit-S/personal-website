@@ -44,14 +44,41 @@ export default function Projects() {
                 projDetails="Team &bull; Project Manager"
                 >
                     <div>
-                        <h1> AMIRIT KLSJF:LSDJ </h1>
-                        <p> Hello my name is Amrit </p>
-                        <h1> AMIRIT KLSJF:LSDJ </h1>
-                        <p> Hello my name is Amrit </p>
-                        <h1> AMIRIT KLSJF:LSDJ </h1>
-                        <p> Hello my name is Amrit </p>
-                        <h1> AMIRIT KLSJF:LSDJ </h1>
-                        <p> Hello my name is Amrit </p>
+                        <p> <b> Client Background </b> <br/> 
+                        
+                        Sakyadhita is a women centric Buddhist non-profit that centers around
+                        community wellness. Their current <a href="https://www.sakyadhita.org/" target="_blank" rel="noopener noreferrer"> website </a> is very visually outdated, and relies on external technical maintenance
+                        for any small updates.
+                        </p>
+                        <p> <b> Project Goals </b> <br/> 
+                        
+                        Project outcome was to do a complete modern redesign of the website, and provide 
+                        an internal web tool that allows authorized members to log in and be able to make modifications to the
+                        website directly. 
+                        </p>
+                        <p>
+                            <b> Est. Completion Date: </b> Dec. 2021 
+                        </p>
+                        <p>
+                            <b> Tech Stack: </b> SERN 
+                        </p>
+                        <p>
+                            <b> Dependencies: </b> PayPal Smart Buttons, Material UI, Bootstrap
+                        </p>
+                        <p>
+                            <b> Hosting: </b> DreamHost 
+                        </p>
+
+                        <p>
+                            <b> Team: </b> 1 Project Manager, 6 Developers, 1 HS Intern 
+                        </p>
+
+                        <b> Responsibilties </b>
+                        <ul>
+                            <li> <p> Constructed project timeline, designed backend schemas/composition, and assigned tasks to developers in addition to PR code review  </p></li>
+                            <li> <p> Communicated with client for feature clarifications/adjustments, tech stack negotiations, and periodic progress demos </p></li>
+                            <li> <p> Developed Home Page, Contact Page (email automation), and website footer, including responsive desktop and mobile layouts </p></li>
+                        </ul>
                     </div>
                 </ProjEntry>
 

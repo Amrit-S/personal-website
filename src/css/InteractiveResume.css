@@ -27,6 +27,8 @@
     height: 75px;
     border-radius: 5px;
     border-bottom: 2px solid black;
+
+    /* background-color: #96ca2f; */
 }
 
 #title-section #title-arrow:hover{
