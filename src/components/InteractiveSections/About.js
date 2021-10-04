@@ -15,8 +15,7 @@ export default function About() {
             <div className="about-info">
                 <div id="headshot-container">  
                     <div className="headshot-backdrop"></div>
-                    <img src={PersonalHeadshot} alt="Amrit Headshot" width="250px" height="auto" style={{margin: "-330px 30px 0px 30px"}} />
-                    
+                    <img src={PersonalHeadshot} alt="Amrit Headshot" width="250px" height="auto" />
                     <p> 
                         <MapMarker/>
                         San Diego, USA

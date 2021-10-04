@@ -92,6 +92,11 @@ export default function Projects() {
                 dates="Sept 2021 - Present"
                 projDetails="Individual"
                 >
+                    <div>
+                        <p> <b> Est. Completion Date: </b> Oct. 2021 </p>
+                        <p> <b> Tech Stack: </b> ReactJS </p>
+                        <p> <b> Hosting: </b> Heroku </p>
+                    </div>
                 </ProjEntry>
             </div>
             <br/> <br/>
@@ -123,6 +128,42 @@ export default function Projects() {
                 dates="Oct 2020 - Jan 2021"
                 projDetails="Team &bull; Project Manager"
                 >
+                     <div>
+                        <p> <b> Client Background </b> <br/> 
+                        
+                        United Women of East Africa (UWEAST) is a non-profit that provides health services and educational 
+                        opportunities for the East African community. It had started a local community kitchen 
+                        in San Diego featuring various East African foods, and wanted to expand it to a more
+                        functional catering and order service. 
+
+                        </p>
+                        <p> <b> Project Goals </b> <br/> 
+                        
+                        Project outcome was to create a food ordering web application that allowed customers to browse the
+                        menu, customize their selection, and pay for their order. It should further duel as an internal 
+                        management tool for the operators, allowing authorized users to edit the menu and view placed orders.  
+                        </p>
+                        <p>
+                            <b> Tech Stack: </b> MERN 
+                        </p>
+                        <p>
+                            <b> Dependencies: </b> PayPal Smart Buttons, Material UI, Bootstrap
+                        </p>
+                        <p>
+                            <b> Hosting: </b> Heroku 
+                        </p>
+
+                        <p>
+                            <b> Team: </b> 1 Project Manager, 7 Developers 
+                        </p>
+
+                        <b> Responsibilties </b>
+                        <ul>
+                            <li> <p> Constructed project timeline, designed backend schemas/composition, and assigned tasks to developers in addition to PR code review  </p></li>
+                            <li> <p> Communicated with client for feature clarifications/adjustments, tech stack negotiations, and periodic progress demos </p></li>
+                            <li> <p> Developed Home Page, Contact Page (email automation), and website footer, including responsive desktop and mobile layouts </p></li>
+                        </ul>
+                    </div>
                 </ProjEntry>
             
             <ProjEntry

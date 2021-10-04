@@ -9,3 +9,9 @@
 .skill-entry:hover {
     background-color: #e6e6e6;
 }
+
+@media only screen and (max-width: 1000px) {
+    .skill-entry{
+        flex-direction: column;
+    }
+}

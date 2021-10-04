@@ -27,8 +27,6 @@
     height: 75px;
     border-radius: 5px;
     border-bottom: 2px solid black;
-
-    /* background-color: #96ca2f; */
 }
 
 #title-section #title-arrow:hover{
@@ -116,6 +114,14 @@
     background: url("../media/forest-bg.jpeg");
     background-position: left;
     border-radius: 10px;
+}
+
+#headshot-container img {
+    margin: -330px 30px 0px 30px; 
+}
+
+#headshot-container > p {
+    margin-left: -60px;
 }
 
 #about-section img {
@@ -226,6 +232,17 @@
         flex-direction: column;
     }
 
+    #headshot-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #headshot-container img {
+        margin: -325px 30px 0px 90px; 
+    }
+
 }
 
 @media only screen and (max-width: 1050px) {
@@ -234,6 +251,7 @@
         grid-template-columns: repeat(1, 100%);
         gap: 20px;
     }
+
 }
 
 @media only screen and (max-width: 800px) {
@@ -251,6 +269,24 @@
         height: max(11vw, 65px);
         border-radius: 5px;
         border-bottom: 2px solid black;
+    }
+
+    .book-bg {
+        background: white;
+     }
+}
+
+@media only screen and (max-width: 600px){
+    .skillset-subsection{
+        flex-direction: column;
+    }
+
+    .skillset-subsection > div:nth-child(2) {
+        margin-left: 0px;
+    }
+
+    .skillset-subsection > div > * {
+        padding: 10px;
     }
 }
 
