@@ -132,14 +132,6 @@
 
     width: 100%;
     background: url("../media/vine.png") no-repeat center center; 
-    /* background-size: 80% auto; */
-    /* width: 100%;
-
-    background: url("../media/book.jpeg") repeat center center; 
-    background-size: 80% auto; */
-    
-    
-    /* margin: 0px 30px; */
 }
 
 /* Work */
@@ -163,6 +155,14 @@
 
 #projects-section > h4, #skillset-section > h4 {
     padding: 20px 0px;
+}
+
+#projects-section a {
+    color: #0645AD !important;
+}
+
+#projects-section a:hover {
+    cursor: pointer !important;
 }
 
 /* Skillset */
