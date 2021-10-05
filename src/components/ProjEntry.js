@@ -22,16 +22,6 @@ export default function ProjEntry({id=null, img, title, shortDes, dates, projDet
                         <img src={linkInfo['img']} alt={linkInfo['title']} width="25" height="25"/>
                      </a>
                 ))}
-
-                {/* External Link */}
-                 {/* <a className={`webLink ${webLink ? '':'hide'}`} style={{borderTopRightRadius: "20px"}} title="Project Link" href={webLink} target="_blank" rel="noopener noreferrer"> 
-                        <img src="https://img.icons8.com/ios-glyphs/128/000000/external-link.png" alt="External Link" width="25" height="25"/>
-                </a> */}
-
-                {/* GitHub Link */}
-                {/* <a className={`webLink ${githubLink ? '':'hide'}`} title="GitHub Source Code" href={githubLink} target="_blank" rel="noopener noreferrer"> 
-                        <img src="https://img.icons8.com/material-outlined/24/000000/github.png" alt="GitHub Link" width="25" height="25"/>
-                </a> */}
                 
             </div>
 
@@ -53,7 +43,10 @@ export default function ProjEntry({id=null, img, title, shortDes, dates, projDet
             </section>
 
             {/* Expand/Collapse  */}
-            <a onClick={handleCardToggle} className="card-toggle-text"> <p> {isCardExpanded ? "Show Less": "Read More"} </p> </a>    
+            {
+                children && <a onClick={handleCardToggle} className="card-toggle-text"> <p> {isCardExpanded ? "Show Less": "Read More"} </p> </a>    
+            }
+            
         </div>
     );
 }
