@@ -12,7 +12,7 @@ export default function PrintableResume() {
             </div>
             
             <div id="resume-container">
-                <iframe title="PDF Resume" src="https://drive.google.com/file/d/1MAKERlEOfkFhT0PcwqV2gZ_EB8QwFwoY/preview?widget=true&amp;headers=false" height="100%" width="100%"></iframe>
+                <iframe title="PDF Resume" src="https://drive.google.com/file/d/1FCISrDND99-eHc9GDebLyr0HPTnDTxei/preview?widget=true&amp;headers=false" height="100%" width="100%"></iframe>
             </div>
         </div>
     );
