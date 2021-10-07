@@ -16,10 +16,12 @@ export default function About() {
                 <div id="headshot-container">  
                     <div className="headshot-backdrop"></div>
                     <img src={PersonalHeadshot} alt="Amrit Headshot" width="250px" height="auto" />
-                    <p> 
-                        <MapMarker/>
-                        San Diego, USA
-                    </p>
+                    <div className="info">
+                        {/* <p> <MapMarker/> San Diego, USA</p> */}
+                        
+                        <p className="hover-underline-animation"> <img src="https://img.icons8.com/material-outlined/24/000000/github.png" width="25" height="25"/> &nbsp; Amrit-S </p>
+                        <p className="hover-underline-animation"> <img src="https://img.icons8.com/ios-glyphs/30/000000/linkedin.png" width="25" height="25" /> &nbsp; amrit-kaur-singh </p>
+                    </div>
                 </div>
                 <div style={{textAlign: "left"}}>  
                     <h4> About Me </h4>

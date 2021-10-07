@@ -17,7 +17,7 @@ export default function Contact() {
             </h3>
             <hr/>
             <div className="contract-entry-wrapper">
-                <a className="contact-entry" href="mailto: aksingh@ucsd.edu"> 
+                <a className="contact-entry hover-underline-animation" href="mailto: aksingh@ucsd.edu"> 
 
                     <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
                         width="30" height="30"
@@ -26,7 +26,7 @@ export default function Contact() {
                     &nbsp;
                     aksingh@ucsd.edu (Preferred)
                 </a>
-                <a className="contact-entry" href="https://www.linkedin.com/in/amrit-kaur-singh" target="_blank" rel="noopener noreferrer"> 
+                <a className="contact-entry hover-underline-animation" href="https://www.linkedin.com/in/amrit-kaur-singh" target="_blank" rel="noopener noreferrer"> 
                 <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
                     width="32" height="32"
                     viewBox="0 0 172 172"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M40.3125,26.875c-7.34863,0 -13.4375,6.08887 -13.4375,13.4375v91.375c0,7.34864 6.08887,13.4375 13.4375,13.4375h91.375c7.34864,0 13.4375,-6.08886 13.4375,-13.4375v-91.375c0,-7.34863 -6.08886,-13.4375 -13.4375,-13.4375zM40.3125,37.625h91.375c1.53271,0 2.6875,1.15479 2.6875,2.6875v91.375c0,1.53271 -1.15479,2.6875 -2.6875,2.6875h-91.375c-1.53271,0 -2.6875,-1.15479 -2.6875,-2.6875v-91.375c0,-1.53271 1.15479,-2.6875 2.6875,-2.6875zM56.10156,46.86328c-5.10205,0 -9.23828,4.13623 -9.23828,9.23828c0,5.10205 4.13623,9.23828 9.23828,9.23828c5.10205,0 9.23828,-4.13623 9.23828,-9.23828c0,-5.10205 -4.13623,-9.23828 -9.23828,-9.23828zM104.64453,71.38672c-7.70557,0 -12.82861,4.22021 -14.94922,8.23047h-0.33594v-7.05469h-15.11719v51.0625h15.78906v-25.19531c0,-6.65576 1.32276,-13.10156 9.57422,-13.10156c8.12549,0 8.23047,7.5166 8.23047,13.4375v24.85938h15.78906v-28.05078c0,-13.73144 -2.91846,-24.1875 -18.98047,-24.1875zM48.375,72.5625v51.0625h15.95703v-51.0625z"></path></g></g></svg>

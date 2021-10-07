@@ -61,7 +61,7 @@
     margin-bottom: 20px;
 }
 
-.paint-bg, .contact-entry:hover, .navbar-entry-active {
+.paint-bg, .navbar-entry-active {
     background: url("../media/brush-stroke.svg");
     background-repeat: no-repeat;
     background-size: 100% 95%;
@@ -116,12 +116,31 @@
     border-radius: 10px;
 }
 
-#headshot-container img {
+#headshot-container > img {
     margin: -330px 30px 0px 30px; 
 }
 
-#headshot-container > p {
-    margin-left: -60px;
+#headshot-container .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#headshot-container .info > p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    color: black;
+}
+
+#headshot-container .info > p:hover {
+    cursor: pointer;
+}
+
+#headshot-container .info > p, #headshot-container .info > p {
+    margin-bottom: 0px;
 }
 
 #about-section img {
@@ -129,9 +148,32 @@
 }
 
 .book-bg {
-
     width: 100%;
     background: url("../media/vine.png") no-repeat center center; 
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #729925;
+}
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #729925;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
 /* Work */
@@ -239,8 +281,12 @@
         align-items: center;
     }
 
-    #headshot-container img {
+    #headshot-container > img {
         margin: -325px 30px 0px 90px; 
+    }
+
+    #headshot-container .info {
+        margin-left: 50px;
     }
 
 }
