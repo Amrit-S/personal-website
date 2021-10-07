@@ -122,25 +122,9 @@
 
 #headshot-container .info {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-}
-
-#headshot-container .info > p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: fit-content;
-    color: black;
-}
-
-#headshot-container .info > p:hover {
-    cursor: pointer;
-}
-
-#headshot-container .info > p, #headshot-container .info > p {
-    margin-bottom: 0px;
 }
 
 #about-section img {
@@ -175,6 +159,30 @@
   transform: scaleX(1);
   transform-origin: bottom left;
 }
+
+
+#github-button, #linkedin-button {
+    width: fit-content;
+    padding: 7px 9px;
+    border-radius: 7px;
+    box-shadow: 2px 2px 2px black;
+    background-color: #d3d3d3;
+}
+
+#github-button {
+    margin-right: 15px;
+}
+
+#github-button:hover {
+    background-color: rgb(66, 65, 65);
+    cursor: pointer;
+}
+
+#linkedin-button:hover {
+    background-color: #0072b1;
+    cursor: pointer;
+}
+
 
 /* Work */
 
@@ -283,6 +291,10 @@
 
     #headshot-container > img {
         margin: -325px 30px 0px 90px; 
+    }
+
+    #headshot-container > p {
+        margin-left: 50px;
     }
 
     #headshot-container .info {
