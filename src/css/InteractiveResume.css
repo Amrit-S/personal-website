@@ -1,5 +1,5 @@
-#title-section{
-    background: url("../media/forest-bg.jpeg") no-repeat center center fixed; 
+#interactive-resume-page #title-section{
+    background: url("https://images.unsplash.com/photo-1610641987870-d6d8998274a4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1738&q=80") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -9,16 +9,20 @@
     height: 100vh;
 }
 
-#title-section #title-text{
+#interactive-resume-page #title-section #title-text{
     position: absolute;
     top: 50%;
     left: 50%;
     color: white;
     text-align: center;
     transform: translate(-50%, -50%);
+    text-shadow: 2px 2px #0645AD;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.4);
+    
 }
 
-#title-section #title-arrow{
+#interactive-resume-page #title-section #title-arrow{
     position: absolute;
     bottom: 0%;
     right: 5%;
@@ -29,11 +33,11 @@
     border-bottom: 2px solid black;
 }
 
-#title-section #title-arrow:hover{
+#interactive-resume-page #title-section #title-arrow:hover{
     cursor: pointer;
 }
 
-#title-arrow img {
+#interactive-resume-page #title-arrow img {
     position: absolute;
     bottom: 50%;
     left: 50%;
@@ -111,7 +115,7 @@
 .headshot-backdrop{
     width: 250px;
     height: 350px;
-    background: url("../media/forest-bg.jpeg");
+    background: url("https://images.unsplash.com/photo-1505635725851-c2cfe9e29112?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=930&q=80");
     background-position: left;
     border-radius: 10px;
 }

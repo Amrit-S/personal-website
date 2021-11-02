@@ -1,7 +1,7 @@
 import React from "react";
 
 import "../css/NavBar.css";
-import { SITE_PAGES } from "../constants/links";
+import { SITE_PAGES, GENERAL_LINKS } from "../constants/links";
 
 export default function NavBar() {
 
@@ -14,7 +14,7 @@ export default function NavBar() {
     return (
         <div id="navbar">
             <a className={`navbar-entry ${isPageActive(SITE_PAGES.INTERACTIVE_RESUME)}`} href={SITE_PAGES.INTERACTIVE_RESUME}> Interactive </a>
-            <a className={`navbar-entry ${isPageActive(SITE_PAGES.PRINTABLE_RESUME)}`} href={SITE_PAGES.PRINTABLE_RESUME}> Printable </a>
+            <a className={`navbar-entry`} rel="noopener noreferrer" target="_blank" href={GENERAL_LINKS.RESUME}> Printable </a>
         </div>
     );
 }

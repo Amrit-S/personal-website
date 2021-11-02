@@ -1,7 +1,7 @@
 import React from "react";
 
 import SectionTitle from "../SectionTitle";
-import { SITE_PAGES } from "../../constants/links";
+import { GENERAL_LINKS } from "../../constants/links";
 
 export default function Contact() {
 
@@ -17,14 +17,14 @@ export default function Contact() {
             </h3>
             <hr/>
             <div className="contract-entry-wrapper">
-                <a className="contact-entry hover-underline-animation" href="mailto: aksingh@ucsd.edu"> 
+                <a className="contact-entry hover-underline-animation" href="mailto: Amrit.singh26@gmail.com"> 
 
                     <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
                         width="30" height="30"
                         viewBox="0 0 172 172"
                         ><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M149.49588,27.78203h-126.98068c-9.27228,0.01055 -16.78632,7.52459 -16.79687,16.79687v82.84219c0.01055,9.27228 7.52459,16.78632 16.79688,16.79688h126.98034c9.27228,-0.01055 16.78632,-7.52459 16.79688,-16.79688v-82.84219c-0.01018,-9.27231 -7.52423,-16.78651 -16.79654,-16.79687zM119.63104,85.97716l39.94297,-31.34902v70.12292zM22.5152,34.50078h126.98034c5.56339,0.00629 10.07183,4.51474 10.07813,10.07812v1.50836l-64.63773,50.73261c-4.86287,3.79636 -11.68688,3.79082 -16.54358,-0.01344l-65.95528,-50.73194v-1.49559c0.00629,-5.56339 4.51474,-10.07183 10.07813,-10.07812zM53.56859,86.18813l-41.13152,38.69832v-70.33557zM149.49588,137.49922h-126.98068c-3.49841,-0.00204 -6.74562,-1.81777 -8.57917,-4.79719l45.02705,-42.36172l15.3127,11.77797c7.28683,5.69184 17.51366,5.68921 24.79756,-0.00638l15.22435,-11.94627l43.79449,42.50953c-1.83039,2.99472 -5.08651,4.82198 -8.5963,4.82406z"></path></g></g></svg>
                     &nbsp;
-                    aksingh@ucsd.edu (Preferred)
+                    Amrit.singh26@gmail.com (Preferred)
                 </a>
                 <a className="contact-entry hover-underline-animation" href="https://www.linkedin.com/in/amrit-kaur-singh" target="_blank" rel="noopener noreferrer"> 
                 <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
@@ -36,12 +36,18 @@ export default function Contact() {
             </div>
             <br/><br/>
             <p className="contact-additional-info"> 
-                Looking for a printable version of my resume? <a href={SITE_PAGES.PRINTABLE_RESUME}> Click here. </a> 
+                Looking for a printable version of my resume? <a href={GENERAL_LINKS.RESUME} target="_blank" rel="noopener noreferrer"> Click here. </a> 
                 <br/><br/><br/><br/><br/><br/><br/><br/>
                 Site Acknowledgements:
                 <a href="https://icons8.com/icon/" target="_blank" rel="noopener noreferrer"> Icons8 </a>,
                 <a href="https://www.flaticon.com/" target="_blank" rel="noopener noreferrer"> Flaticon Icons </a>,
                 and thematic inspiration from <a href="http://www.pascalvangemert.nl/#/profile" target="_blank" rel="noopener noreferrer">Pascal van Gemert's Website </a> 
+                <br/><br/>
+                Leaves Photo by <a href="https://unsplash.com/photos/3Kv48NS4WUU" target="_blank" rel="noreferrer"> John Tower via Unsplash </a>
+                <br/>
+                Vine Photo by <a href="https://gallery.yopriceville.com/Free-Clipart-Pictures/Decorative-Elements-PNG/Vine_Ivy_Decoration_PNG_Clipart_Picture#.YYCGgNnMJ0s" target="_blank" rel="noreferrer"> Gallery Yopriceille </a>
+                <br/>
+                Forest Photo by <a href="https://unsplash.com/photos/oEdmks2U7nI" target="_blank" rel="noreferrer"> Simon Berger via Unsplash </a>
             </p>
             
         </section>

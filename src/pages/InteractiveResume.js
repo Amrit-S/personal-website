@@ -45,7 +45,7 @@
 
 
      return (
-         <div>
+         <div id="interactive-resume-page">
              <NavBar/>
              {/* Section #1 - Intro/Title */}
              <section id="title-section">

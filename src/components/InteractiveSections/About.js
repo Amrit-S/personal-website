@@ -19,8 +19,8 @@ export default function About() {
                     <p> <MapMarker/> San Diego, USA</p>
                     <div className="info">
                         
-                        <a id="github-button" href="https://github.com/Amrit-S" target="_blank" rel="noopener noreferrer"> <img src="https://img.icons8.com/material-outlined/24/000000/github.png" alt="github-icon" width="25" height="25" /> </a>
-                        <a id="linkedin-button" href="https://www.linkedin.com/in/amrit-kaur-singh/" target="_blank" rel="noopener noreferrer"> <img src="https://img.icons8.com/ios-glyphs/30/000000/linkedin.png" alt="linkedin-icon" width="25" height="25" /> </a>
+                        <a id="github-button" href="https://github.com/Amrit-S" target="_blank" rel="noopener noreferrer" title="GitHub"> <img src="https://img.icons8.com/material-outlined/24/000000/github.png" alt="github-icon" width="25" height="25" /> </a>
+                        <a id="linkedin-button" href="https://www.linkedin.com/in/amrit-kaur-singh/" target="_blank" rel="noopener noreferrer" title="LinkedIn"> <img src="https://img.icons8.com/ios-glyphs/30/000000/linkedin.png" alt="linkedin-icon" width="25" height="25" /> </a>
                     </div>
                 </div>
                 <div style={{textAlign: "left"}}>  
