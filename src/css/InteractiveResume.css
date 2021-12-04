@@ -22,9 +22,17 @@
     
 }
 
+#title-text h1 {
+    font-size: 60px;
+}
+
+#title-text h2 {
+    font-size: 30px;
+}
+
 #interactive-resume-page #title-section #title-arrow{
     position: absolute;
-    bottom: 0%;
+    bottom: 1%;
     right: 5%;
     background-color: white;
     width: 100px;
@@ -322,20 +330,43 @@
         justify-content: space-evenly;
     }
 
-    #title-section #title-arrow{
+    #interactive-resume-page #title-section #title-arrow {
         position: absolute;
-        bottom: 0%;
+        bottom: 1%;
         right: 5%;
         background-color: white;
-        width: max(15vw, 50px);
-        height: max(11vw, 65px);
+        width: max(14vw, 50px);
+        height: max(11vw, 55px);
         border-radius: 5px;
         border-bottom: 2px solid black;
     }
 
-    .book-bg {
-        background: white;
-     }
+    #title-section #title-arrow-icon {
+        width: 5vw;
+        height: 5vw;
+    }
+
+    .mobile-solo-column > section {
+        padding: 55px 15px;
+    }
+
+    #title-text h1 {
+        font-size: 48px;
+    }
+
+    #title-text h2 {
+        font-size: 22px;
+    }
+
+    .mobile-solo-column > section {
+        font-size: 16px;
+    }
+
+    .mobile-solo-column > section h3 {
+        font-size: 18px !important;
+    }
+
+
 }
 
 @media only screen and (max-width: 600px){
@@ -350,12 +381,4 @@
     .skillset-subsection > div > * {
         padding: 10px;
     }
-}
-
-@media only screen and (max-width: 400px) {
-    
-    .mobile-solo-column > section {
-        padding: 55px 15px;
-    }
-    
 }

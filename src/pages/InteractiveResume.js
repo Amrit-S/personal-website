@@ -60,13 +60,13 @@
              {/* Section #1 - Intro/Title */}
              <section id="title-section">
                  <section id="title-text">
-                    <h1 style={{fontSize: "60px", margin: "0"}}> Amrit Kaur Singh </h1>
+                    <h1 style={{margin: "0"}}> Amrit Kaur Singh </h1>
                     <hr/>
-                    <h2 style={{fontSize: "30px"}}> Interactive Resume </h2>
+                    <h2> Interactive Resume </h2>
                  </section>
 
                  <section id="title-arrow" ref={navBarRef} onClick={handleArrowClick}>
-                     <img src={DoubleArrow} alt="Arrow Icon" width="28" height="28"/>
+                     <img id="title-arrow-icon" src={DoubleArrow} alt="Arrow Icon" width="28" height="28"/>
                  </section>
              </section>
 

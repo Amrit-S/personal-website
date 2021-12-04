@@ -7,3 +7,9 @@
     font-size: 40px;
     text-align: center;
 }
+
+@media only screen and (max-width: 800px) {
+    .section-title h2{
+        font-size: 35px;
+    }
+}

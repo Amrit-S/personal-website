@@ -34,7 +34,7 @@ export default function ProjEntry({id=null, img, title, shortDes, dates, projDet
                 <h2> {title} </h2>
                 <hr/>
                
-                <p> {shortDes} </p>
+                <p dangerouslySetInnerHTML={{ __html:shortDes}}></p>
 
                 {/* Custom Content */}
                 {

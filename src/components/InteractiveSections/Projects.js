@@ -8,7 +8,6 @@ import PersonalWebImg from "../../media/Personal-Website.png";
 import DMEKImg from "../../media/DMEK-Tool.png";
 import UWEASTImg from "../../media/UWEAST.png";
 import DynamicsImg from "../../media/Dynamics.png";
-import TSERecruitmentImg from "../../media/TSERecruitment.png";
 
 
 const GITHUB_ICON = "https://img.icons8.com/material-outlined/24/000000/github.png";
@@ -45,6 +44,7 @@ export default function Projects() {
                 projDetails="Team &bull; Project Manager"
                 >
                     <div>
+                        <p> <b> Non-Profit: </b>  Sakyadhita </p> 
                         <p> <b> Client Background </b> <br/> 
                         
                         Sakyadhita is a women centric Buddhist non-profit that centers around
@@ -67,7 +67,7 @@ export default function Projects() {
                             <b> Dependencies: </b> PayPal Smart Buttons, Material UI, Bootstrap
                         </p>
                         <p>
-                            <b> Hosting: </b> DreamHost 
+                            <b> Hosting: </b> DreamHost (Site), DropBox (Image)
                         </p>
 
                         <p>
@@ -82,29 +82,29 @@ export default function Projects() {
                         </ul>
                     </div>
                 </ProjEntry>
-
-                <ProjEntry
-                title="Personal Website"
-                img={PersonalWebImg}
-                shortDes="Built this website from scratch using ReactJS. Currently integrating data analytics utilizing MongoDB/Mongoose."
-                linksArr={[
-                    {url: "https://github.com/Amrit-S/personal-website", img: GITHUB_ICON, title: GITHUB_TITLE}
-                ]}
-                dates="Sept 2021 - Present"
-                projDetails="Individual"
-                >
-                    {/* <div>
-                        <p> <b> Est. Completion Date: </b> Oct. 2021 </p>
-                        <p> <b> Tech Stack: </b> ReactJS </p>
-                        <p> <b> Hosting: </b> Heroku </p>
-                    </div> */}
-                </ProjEntry>
             </div>
             <br/> <br/>
             <hr/>
             <h4> Completed </h4>
 
             <div className="grid-layout">
+
+            <ProjEntry
+                title="Personal Website"
+                img={PersonalWebImg}
+                shortDes="Built this website from scratch using ReactJS."
+                linksArr={[
+                    {url: "https://github.com/Amrit-S/personal-website", img: GITHUB_ICON, title: GITHUB_TITLE}
+                ]}
+                dates="Sept 2021"
+                projDetails="Individual"
+                >
+                    <div>
+                        <p> <b> Tech Stack: </b> ReactJS </p>
+                        <p> <b> Hosting: </b> Heroku </p>
+                    </div>
+                </ProjEntry>
+
             <ProjEntry
                 id="DMEK-Project"
                 title="DMEK Analysis Tool"
@@ -225,6 +225,7 @@ export default function Projects() {
                 projDetails="Team &bull; Project Manager"
                 >
                      <div>
+                        <p> <b> Non-Profit: </b>  UWEAST </p> 
                         <p> <b> Client Background </b> <br/> 
                         
                         United Women of East Africa (UWEAST) is a non-profit that provides health services and educational 
@@ -280,6 +281,7 @@ export default function Projects() {
                 projDetails="Team &bull; Developer"
                 >
                        <div>
+                        <p> <b> Non-Profit: </b>  Dynamics Performance Team </p> 
                         <p> <b> Client Background </b> <br/> 
                         
                         Dynamics Performance Team is an award-winning dance company that trains and competes 
@@ -324,14 +326,18 @@ export default function Projects() {
                     </div>
                 </ProjEntry>
 
-            <ProjEntry
+            {/* <ProjEntry
                 title="TSE Internal Recruitment Tool"
                 img={TSERecruitmentImg}
                 shortDes="Utilized by an UC San Diego engineering org to streamline their heavy recruitment process."
                 dates="Feb 2019 - April 2019"
                 projDetails="Team &bull; Developer"
                 >
-                </ProjEntry>
+                     <div>
+                        <p> <b> Tech Stack: </b> Mongoose, MongoDB </p>
+                        <p> <b> Hosting: </b> Heroku </p>
+                    </div>
+                </ProjEntry> */}
             </div>
         </section>
     );
