@@ -15,7 +15,7 @@
     flex-direction: column;
 
     height:0px;
-       -webkit-transition:height, 0.2s linear;
+    -webkit-transition:height, 0.2s linear;
     -moz-transition: height, 0.2s linear;
     -ms-transition: height, 0.2s linear;
     -o-transition: height, 0.2s linear;
@@ -59,8 +59,80 @@
 }
 
 @media only screen and (max-width: 950px) {
+
+   #scroll-bar-mobile-icon {
+        visibility: visible;
+        position: fixed;
+        background-color: #6B8E23;
+        z-index: 90;
+        width: 20px;
+        height: 20px;
+        padding: 15px;
     
-    #scroll-bar{
-        display: none;
+        top: 100px;
+        right: 5%;
+    }
+
+    #scroll-bar-mobile-icon:hover {
+        cursor: pointer;
+    }
+
+   #scroll-menu {
+       position: fixed;
+       width: 0;
+       height: 100vh;
+       background-color: #6B8E23;
+       z-index: 100;
+       top: 0;
+       right: 0;
+
+       display: flex;
+       flex-direction: column;
+
+       -webkit-transition: width, 0.2s linear;
+        -moz-transition: width, 0.2s linear;
+        -ms-transition: width, 0.2s linear;
+        -o-transition: width, 0.2s linear;
+        transition: width, 0.2s linear;
+      
+    }
+
+    #scroll-menu.visible{
+        width: 100%;
+
+        -webkit-transition: width, 0.2s linear;
+        -moz-transition: width, 0.2s linear;
+        -ms-transition: width, 0.2s linear;
+        -o-transition: width, 0.2s linear;
+        transition: width, 0.2s linear;
+
+    }
+    
+    #scroll-menu.visible #scroll-menu-x {
+        padding: 20px 0px;
+        margin-left: 20px;
+    }
+
+    #scroll-menu.visible #scroll-menu-x:hover {
+        cursor: pointer;
+    }
+    
+
+    .scroll-entry-mobile {
+        width: 100%;
+        padding: 20px 0px;
+        font-size: 20px;
+        color: white;
+    }
+
+    .scroll-entry-mobile:hover {
+        background-color: #d3d3d3;
+        cursor: pointer;
+        color: black;
+    }
+
+    .active-section-mobile {
+        background-color: #d3d3d3;
+        color: black;
     }
 }

@@ -23,6 +23,8 @@
     const scrollBarCallback = (isInScope) =>{
         let scrollBarNode = document.getElementById('scroll-bar');
 
+        if(!scrollBarNode) return;
+
         if(isInScope) scrollBarNode.classList.add('visible')
         else scrollBarNode.classList.remove('visible');
     } 
@@ -102,7 +104,7 @@
             </div>
              </section>
 
-             <ScrollBar/>
+             <ScrollBar isMobile={isMobile}/>
 
              <div id="content-body">
                  <SectionLayout leftColClass="book-bg" isMobile={isMobile}>
