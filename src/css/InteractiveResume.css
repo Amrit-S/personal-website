@@ -195,6 +195,106 @@
     cursor: pointer;
 }
 
+#container {
+    position: absolute;
+    perspective: 600px;
+    perspective-origin: -20% 20%;
+    margin: -2em auto;
+    }
+    
+    /* Blue Butterfly */
+    .futterbly{
+    margin-top: 30vw;
+    transform: rotateZ(-65deg) rotate3d(0, 1, 0, 0deg) scale3d(0.5, 0.5, 0.5);
+    /* transform-origin: 51% 50%; */
+    left: 0px;
+    bottom: 0px;
+    width: 400px;
+    height: 238px;
+    transform-style: preserve-3d;
+    }
+    
+    .wing {
+    transform: rotateX(30deg)  translate3d(-200px, 0px, 0px) rotate3d(0, 1, 0, 160deg);
+    transform-origin: top right;
+    position: absolute;
+    left: 200px;
+    bottom: 0px;
+    width: 200px;
+    height: 238px;
+    background: url(http://blueskyyogaohio.com/wp-content/themes/Chameleon/images/butterfly.png) no-repeat;
+    animation-name: rightwing_ani;
+    animation-duration: 5s;
+    animation-delay: .5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    }
+
+    .wing-delay {
+        /* animation-duration: 10s; */
+        animation-delay: 4s;
+        animation-duration: 6s;
+    }
+    
+    .futterbly .left {
+    transform: rotateX(30deg) 
+                rotate3d(0, 1, 0, 0deg);
+    animation-name: leftwing_ani;
+    left: 0px;
+    top: 0px;
+    }
+    
+    @keyframes rightwing_ani {
+        from {
+            transform: rotateX(30deg) 
+                        translate3d(-200px, 0px, 0px)
+                        rotate3d(0, 1, 0, 160deg);
+        }
+        20% {
+            transform: rotateX(30deg) 
+                        translate3d(-200px, 0px, 0px)
+                        rotate3d(0, 1, 0, 160deg);
+        }
+        50% {
+            transform: rotateX(30deg)
+                        translate3d(-200px, 0px, 0px) 
+                        rotate3d(0, 1, 0, 100deg);
+        }
+        70% {
+            transform: rotateX(30deg)
+                        translate3d(-200px, 0px, 0px) 
+                        rotate3d(0, 1, 0, 100deg);
+        }
+        to{
+            transform: rotateX(30deg) 
+                        translate3d(-200px, 0px, 0px) 
+                        rotate3d(0, 1, 0, 160deg);
+        }
+    }
+    
+    @keyframes leftwing_ani {
+        from {
+            transform: rotateX(30deg) 
+                        rotate3d(0, 1, 0, 0deg);
+        }
+        20% {
+            transform: rotateX(30deg) 
+                        rotate3d(0, 1, 0, 0deg);
+        }
+        50% {
+            transform: rotateX(30deg) 
+                        rotate3d(0, 1, 0, 80deg);
+        }
+        70% {
+            transform: rotateX(30deg) 
+                        rotate3d(0, 1, 0, 80deg);
+        }
+        to{
+            transform: rotateX(30deg) 
+                        rotate3d(0, 1, 0, 00deg);
+        }
+    }
+    
 
 /* Work */
 
@@ -368,6 +468,11 @@
 
     #headshot-container {
         margin-left: -30px;
+    }
+
+    .futterbly{
+        margin-top: 115vw;
+        margin-left: -20vw;
     }
 
 

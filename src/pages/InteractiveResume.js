@@ -59,6 +59,9 @@
              <NavBar/>
              {/* Section #1 - Intro/Title */}
              <section id="title-section">
+
+
+
                  <section id="title-text">
                     <h1 style={{margin: "0"}}> Amrit Kaur Singh </h1>
                     <hr/>
@@ -68,6 +71,22 @@
                  <section id="title-arrow" ref={navBarRef} onClick={handleArrowClick}>
                      <img id="title-arrow-icon" src={DoubleArrow} alt="Arrow Icon" width="28" height="28"/>
                  </section>
+
+                 <div id="container">
+                    
+                    <div className="futterbly">
+                        <div class="left wing"></div>
+                        <div class="right wing"></div>
+                    </div>
+                    {
+                        !isMobile &&   <div className="futterbly" style={{marginTop: "-35em"}}>
+                        <div class="left wing wing-delay"></div>
+                        <div class="right wing wing-delay"></div>
+                    </div>
+                    }
+                  
+                
+            </div>
              </section>
 
              <ScrollBar/>

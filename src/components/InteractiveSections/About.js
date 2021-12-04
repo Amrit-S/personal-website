@@ -9,6 +9,8 @@ export default function About({isMobile}) {
 
     return (
         <section id="about-section">
+          
+
             <SectionTitle text="At A Glance" />
             <h3> Web Developer &bull; Student ML Researcher {!isMobile && <>  &bull; Avid Learner</> } </h3>
             <hr/>
