@@ -92,7 +92,7 @@ export default function Projects() {
             <ProjEntry
                 title="Personal Website"
                 img={PersonalWebImg}
-                shortDes="Built this website from scratch using ReactJS."
+                shortDes="Designed and built this website myself using ReactJS and some vanilla HTML and CSS. Showcases my technical skillset and experiences."
                 linksArr={[
                     {url: "https://github.com/Amrit-S/personal-website", img: GITHUB_ICON, title: GITHUB_TITLE}
                 ]}
@@ -272,7 +272,8 @@ export default function Projects() {
             <ProjEntry
                 title="Dynamics Performance Team"
                 img={DynamicsImg}
-                shortDes="Personalized website for a San Jose based dance studio. Built using ReactJS."
+                shortDes="Responsive website for a San Jose based dance studio, providing a centralized platform for
+                studio information and auditions. Built using ReactJS."
                 linksArr={[
                     {url: "https://dynamicsperformanceteam.com/#/", img: EXTERNAL_LINK_ICON, title: EXTERNAL_LINK_TITLE},
                     {url: "https://github.com/TritonSE/DT-Website", img: GITHUB_ICON, title: GITHUB_TITLE}

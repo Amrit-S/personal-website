@@ -176,7 +176,7 @@
 #github-button, #linkedin-button {
     width: fit-content;
     padding: 7px 9px;
-    border-radius: 7px;
+    border-radius: 80px;
     box-shadow: 2px 2px 2px black;
     background-color: #d3d3d3;
 }
@@ -186,12 +186,12 @@
 }
 
 #github-button:hover {
-    background-color: rgb(66, 65, 65);
+    background-color: #729925;
     cursor: pointer;
 }
 
 #linkedin-button:hover {
-    background-color: #0072b1;
+    background-color: #729925;
     cursor: pointer;
 }
 
@@ -364,6 +364,10 @@
 
     .mobile-solo-column > section h3 {
         font-size: 18px !important;
+    }
+
+    #headshot-container {
+        margin-left: -30px;
     }
 
 

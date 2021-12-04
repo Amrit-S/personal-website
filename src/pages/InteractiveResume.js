@@ -74,7 +74,7 @@
 
              <div id="content-body">
                  <SectionLayout leftColClass="book-bg" isMobile={isMobile}>
-                     <About scrollBarCallback={scrollBarCallback}/>
+                     <About scrollBarCallback={scrollBarCallback} isMobile={isMobile}/>
                  </SectionLayout>
                  <SectionLayout bgColor="#d3d3d3" isMobile={isMobile}>
                      <Education/>
@@ -89,7 +89,7 @@
                      <Skillset/>
                  </SectionLayout>
                  <SectionLayout bgColor="#373737" isMobile={isMobile}>
-                     <Contact/>
+                     <Contact isMobile={isMobile}/>
                  </SectionLayout>
              </div>
          </div>

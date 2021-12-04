@@ -3,7 +3,7 @@ import React from "react";
 import SectionTitle from "../SectionTitle";
 import { GENERAL_LINKS } from "../../constants/links";
 
-export default function Contact() {
+export default function Contact({isMobile}) {
 
     return (
         <section id="contact-section">
@@ -38,16 +38,35 @@ export default function Contact() {
             <p className="contact-additional-info"> 
                 Looking for a printable version of my resume? <a href={GENERAL_LINKS.RESUME} target="_blank" rel="noopener noreferrer"> Click here. </a> 
                 <br/><br/><br/><br/><br/><br/><br/><br/>
-                Site Acknowledgements:
-                <a href="https://icons8.com/icon/" target="_blank" rel="noopener noreferrer"> Icons8 </a>,
-                <a href="https://www.flaticon.com/" target="_blank" rel="noopener noreferrer"> Flaticon Icons </a>,
-                and thematic inspiration from <a href="http://www.pascalvangemert.nl/#/profile" target="_blank" rel="noopener noreferrer">Pascal van Gemert's Website </a> 
-                <br/><br/>
-                Leaves Photo by <a href="https://unsplash.com/photos/3Kv48NS4WUU" target="_blank" rel="noreferrer"> John Tower via Unsplash </a>
-                <br/>
-                Vine Photo by <a href="https://gallery.yopriceville.com/Free-Clipart-Pictures/Decorative-Elements-PNG/Vine_Ivy_Decoration_PNG_Clipart_Picture#.YYCGgNnMJ0s" target="_blank" rel="noreferrer"> Gallery Yopriceille </a>
-                <br/>
-                Forest Photo by <a href="https://unsplash.com/photos/oEdmks2U7nI" target="_blank" rel="noreferrer"> Simon Berger via Unsplash </a>
+                {
+                    isMobile 
+                    ?
+                    <>
+                        Site Acknowledgements:
+                        <ul style={{textAlign: "left"}}>
+                            <li> <a href="https://icons8.com/icon/" target="_blank" rel="noopener noreferrer"> Icons8</a> (Icons)  </li>
+                            <li>  <a href="https://www.flaticon.com/" target="_blank" rel="noopener noreferrer"> Flaticon Icons</a> (Icons) </li>
+                            <li> <a href="http://www.pascalvangemert.nl/#/profile" target="_blank" rel="noopener noreferrer">Pascal van Gemert's Website </a> (Theme) </li>
+                            <li>  Leaves Photo by <a href="https://unsplash.com/photos/3Kv48NS4WUU" target="_blank" rel="noreferrer"> John Tower via Unsplash </a> </li>
+                            <li> Vine Photo by <a href="https://gallery.yopriceville.com/Free-Clipart-Pictures/Decorative-Elements-PNG/Vine_Ivy_Decoration_PNG_Clipart_Picture#.YYCGgNnMJ0s" target="_blank" rel="noreferrer"> Gallery Yopriceille </a> </li>
+                            <li> Forest Photo by <a href="https://unsplash.com/photos/oEdmks2U7nI" target="_blank" rel="noreferrer"> Simon Berger via Unsplash </a> </li>
+                        </ul>
+                    </>
+                  :
+                    <>
+                      Site Acknowledgements:
+                        <a href="https://icons8.com/icon/" target="_blank" rel="noopener noreferrer"> Icons8 </a>,
+                        <a href="https://www.flaticon.com/" target="_blank" rel="noopener noreferrer"> Flaticon Icons </a>,
+                        and thematic inspiration from <a href="http://www.pascalvangemert.nl/#/profile" target="_blank" rel="noopener noreferrer">Pascal van Gemert's Website </a> 
+                        <br/><br/>
+                        Leaves Photo by <a href="https://unsplash.com/photos/3Kv48NS4WUU" target="_blank" rel="noreferrer"> John Tower via Unsplash </a>
+                        <br/>
+                        Vine Photo by <a href="https://gallery.yopriceville.com/Free-Clipart-Pictures/Decorative-Elements-PNG/Vine_Ivy_Decoration_PNG_Clipart_Picture#.YYCGgNnMJ0s" target="_blank" rel="noreferrer"> Gallery Yopriceille </a>
+                        <br/>
+                        Forest Photo by <a href="https://unsplash.com/photos/oEdmks2U7nI" target="_blank" rel="noreferrer"> Simon Berger via Unsplash </a>
+                    </>
+                }
+            
             </p>
             
         </section>

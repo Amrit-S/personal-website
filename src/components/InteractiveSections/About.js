@@ -5,12 +5,12 @@ import SectionTitle from "../SectionTitle";
 
 import PersonalHeadshot from "../../media/headshot.jpg";
 
-export default function About() {
+export default function About({isMobile}) {
 
     return (
         <section id="about-section">
             <SectionTitle text="At A Glance" />
-            <h3> Web Developer &bull; Student ML Researcher &bull; Avid Learner </h3>
+            <h3> Web Developer &bull; Student ML Researcher {!isMobile && <>  &bull; Avid Learner</> } </h3>
             <hr/>
             <div className="about-info">
                 <div id="headshot-container">  
@@ -18,10 +18,12 @@ export default function About() {
                     <img src={PersonalHeadshot} alt="Amrit Headshot" width="250px" height="auto" />
                     <p> <MapMarker/> San Diego, USA</p>
                     <div className="info">
-                        
                         <a id="github-button" href="https://github.com/Amrit-S" target="_blank" rel="noopener noreferrer" title="GitHub"> <img src="https://img.icons8.com/material-outlined/24/000000/github.png" alt="github-icon" width="25" height="25" /> </a>
                         <a id="linkedin-button" href="https://www.linkedin.com/in/amrit-kaur-singh/" target="_blank" rel="noopener noreferrer" title="LinkedIn"> <img src="https://img.icons8.com/ios-glyphs/30/000000/linkedin.png" alt="linkedin-icon" width="25" height="25" /> </a>
                     </div>
+                    {
+                        isMobile && <br/>
+                    }
                 </div>
                 <div style={{textAlign: "left"}}>  
                     <h4> About Me </h4>
