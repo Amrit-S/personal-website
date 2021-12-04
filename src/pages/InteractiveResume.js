@@ -12,9 +12,12 @@
  import Projects from "../components/InteractiveSections/Projects";
  import Skillset from "../components/InteractiveSections/Skillset";
  import Contact from "../components/InteractiveSections/Contact";
- 
+
+ const MAX_MOBILE_WIDTH = 800;
+
  export default function InteractiveResume() {
 
+    const [isMobile, setIsMobile] = React.useState(false);
     const navBarRef = React.useRef();
 
     const scrollBarCallback = (isInScope) =>{
@@ -39,8 +42,15 @@
           });
     }
 
+    const handleResize = () => {
+          if(window.innerWidth < MAX_MOBILE_WIDTH) setIsMobile(true);
+          else setIsMobile(false);
+    }
+
     React.useEffect(() => {
         window.addEventListener("scroll", checkNavBarRefOffset);
+        window.addEventListener("resize", handleResize);
+        handleResize();
       }, []);
 
 
@@ -63,22 +73,22 @@
              <ScrollBar/>
 
              <div id="content-body">
-                 <SectionLayout leftColClass="book-bg">
+                 <SectionLayout leftColClass="book-bg" isMobile={isMobile}>
                      <About scrollBarCallback={scrollBarCallback}/>
                  </SectionLayout>
-                 <SectionLayout bgColor="#d3d3d3">
+                 <SectionLayout bgColor="#d3d3d3" isMobile={isMobile}>
                      <Education/>
                  </SectionLayout>
-                 <SectionLayout leftColClass="book-bg">
+                 <SectionLayout leftColClass="book-bg" isMobile={isMobile}>
                      <Work/>
                  </SectionLayout>
-                 <SectionLayout bgColor="#d3d3d3">
+                 <SectionLayout bgColor="#d3d3d3" isMobile={isMobile}>
                      <Projects/>
                  </SectionLayout>
-                 <SectionLayout leftColClass="book-bg">
+                 <SectionLayout leftColClass="book-bg" isMobile={isMobile}>
                      <Skillset/>
                  </SectionLayout>
-                 <SectionLayout bgColor="#373737">
+                 <SectionLayout bgColor="#373737" isMobile={isMobile}>
                      <Contact/>
                  </SectionLayout>
              </div>
