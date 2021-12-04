@@ -60,8 +60,6 @@
              {/* Section #1 - Intro/Title */}
              <section id="title-section">
 
-
-
                  <section id="title-text">
                     <h1 style={{margin: "0"}}> Amrit Kaur Singh </h1>
                     <hr/>
@@ -71,6 +69,21 @@
                  <section id="title-arrow" ref={navBarRef} onClick={handleArrowClick}>
                      <img id="title-arrow-icon" src={DoubleArrow} alt="Arrow Icon" width="28" height="28"/>
                  </section>
+
+                 {
+                        !isMobile &&  <div class="butterfly">
+                        <div class="body">
+                            <img alt="body" src="http://fjordstudio.dk/assets/img/butterfly-parts/butterfly3-body.png"/>
+                        </div>
+                        <div class="leftwing">
+                            <img alt="leftwing" src="http://fjordstudio.dk/assets/img/butterfly-parts/butterfly3-leftwing.png"/>
+                        </div>
+                        <div class="rightwing">
+                            <img alt="rightwing" src="http://fjordstudio.dk/assets/img/butterfly-parts/butterfly3-rightwing.png"/>
+                        </div>
+                    </div>
+                 }
+
 
                  <div id="container">
                     
@@ -93,7 +106,7 @@
 
              <div id="content-body">
                  <SectionLayout leftColClass="book-bg" isMobile={isMobile}>
-                     <About scrollBarCallback={scrollBarCallback} isMobile={isMobile}/>
+                     <About isMobile={isMobile}/>
                  </SectionLayout>
                  <SectionLayout bgColor="#d3d3d3" isMobile={isMobile}>
                      <Education/>
