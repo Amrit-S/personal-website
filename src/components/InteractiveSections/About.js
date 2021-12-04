@@ -3,7 +3,7 @@ import React from "react";
 import MapMarker from "../MapMarker";
 import SectionTitle from "../SectionTitle";
 
-import PersonalHeadshot from "../../media/headshot.jpg";
+import PersonalHeadshot from "../../media/Headshot.jpeg";
 
 export default function About({isMobile}) {
 

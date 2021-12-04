@@ -121,15 +121,15 @@
 }
 
 .headshot-backdrop{
-    width: 250px;
-    height: 350px;
+    width: 260px;
+    height: 260px;
     background: url("https://images.unsplash.com/photo-1505635725851-c2cfe9e29112?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=930&q=80");
     background-position: left;
     border-radius: 10px;
 }
 
 #headshot-container > img {
-    margin: -330px 30px 0px 30px; 
+    margin: -230px 30px 0px 30px; 
 }
 
 #headshot-container .info {
@@ -302,7 +302,7 @@
     }
 
     #headshot-container > img {
-        margin: -325px 30px 0px 90px; 
+        margin: -230px 30px 0px 90px; 
     }
 
     #headshot-container > p {
