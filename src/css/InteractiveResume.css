@@ -496,14 +496,20 @@
     }
 
     .futterbly{
-        margin-top: 115vw;
-        margin-left: -20vw;
+        margin-top: 65vw;
+        margin-left: 0vw;
     }
 
 
 }
 
 @media only screen and (max-width: 600px){
+
+    .futterbly{
+        margin-top: 95vw;
+        margin-left: -20vw;
+    }
+
     .skillset-subsection{
         flex-direction: column;
     }
@@ -515,4 +521,13 @@
     .skillset-subsection > div > * {
         padding: 10px;
     }
+}
+
+@media only screen and (max-width: 450px){
+
+    .futterbly{
+        margin-top: 125vw;
+        margin-left: -20vw;
+    }
+
 }

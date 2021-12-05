@@ -93,12 +93,12 @@
                         <div class="left wing"></div>
                         <div class="right wing"></div>
                     </div>
-                    {
+                    {/* {
                         !isMobile &&   <div className="futterbly" style={{marginTop: "-35em"}}>
                         <div class="left wing wing-delay"></div>
                         <div class="right wing wing-delay"></div>
                     </div>
-                    }
+                    } */}
                   
                 
             </div>

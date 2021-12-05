@@ -42,7 +42,7 @@ export default function About({isMobile}) {
 
                     <br/><br/>
                     I also love long walks out in nature, gourging on Taco Bell's Baja Blast Freezes, and multi-tasking on the latest
-                    Turkish drama alongside a good book. Currently it's Nietzsche's <i> Thus Spoke Zarathusthra </i>.
+                    Turkish drama alongside a good book. Currently it's Nietzsche's <i> Thus Spoke Zarathusthra</i>.
 
                     <br/><br/>
                     <h4> Personal Philosophy </h4>

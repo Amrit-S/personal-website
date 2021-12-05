@@ -92,7 +92,7 @@ export default function Projects() {
             <ProjEntry
                 title="Personal Website"
                 img={PersonalWebImg}
-                shortDes="Designed and built this website myself using ReactJS and some vanilla HTML and CSS. Showcases my technical skillset and experiences."
+                shortDes="Like the site? I designed and built this website myself using ReactJS and some vanilla HTML and CSS."
                 linksArr={[
                     {url: "https://github.com/Amrit-S/personal-website", img: GITHUB_ICON, title: GITHUB_TITLE}
                 ]}
