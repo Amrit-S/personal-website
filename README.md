@@ -17,12 +17,12 @@ Heroku on a custom domain.
 ### Acknowledgements
 
 Any of the non-personal project related images are not mine, but rather photos under the Creative Commons license that I am using,
-most notably from Unsplash (see [https://unsplash.com/license](license)). 
+most notably from Unsplash (see [license](https://unsplash.com/license)). 
 
-The butterfly animation I would like to give credit to these CodePen authors [https://codepen.io/Thumper/pen/RxGrwM](Thumper) and [https://codepen.io/Katrine-Marie/pen/MYZNOG](Katrine-Marie Burmeister) for their code. 
+The butterfly animation I would like to give credit to these CodePen authors [Thumper](https://codepen.io/Thumper/pen/RxGrwM) and [Katrine-Marie Burmeister](https://codepen.io/Katrine-Marie/pen/MYZNOG) for their code. 
 
 I also want to credit Pascal van Gemert as I used his website outline and style as a creative starting point to mold my own. His 
-website is linked [http://www.pascalvangemert.nl/#/profile](here) for reference. 
+website is linked [here](http://www.pascalvangemert.nl/#/profile) for reference. 
 
 ## Dependencies
 
