@@ -59,7 +59,7 @@ export default function Contact({isMobile}) {
                         <a href="https://www.flaticon.com/" target="_blank" rel="noopener noreferrer"> Flaticon Icons </a>,
                         and thematic inspiration from <a href="http://www.pascalvangemert.nl/#/profile" target="_blank" rel="noopener noreferrer">Pascal van Gemert's Website </a> 
                         <br/><br/>
-                        Leaves Photo by <a href="https://unsplash.com/photos/3Kv48NS4WUU" target="_blank" rel="noreferrer"> John Tower via Unsplash </a>
+                        Leaves Photo by <a href="https://images.unsplash.com/photo-1610641987870-d6d8998274a4" target="_blank" rel="noreferrer"> Unsplash </a>
                         <br/>
                         Vine Photo by <a href="https://gallery.yopriceville.com/Free-Clipart-Pictures/Decorative-Elements-PNG/Vine_Ivy_Decoration_PNG_Clipart_Picture#.YYCGgNnMJ0s" target="_blank" rel="noreferrer"> Gallery Yopriceille </a>
                         <br/>

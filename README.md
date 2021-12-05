@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# Personal Website - Amrit Kaur Singh
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I decided to make my personal website 'from scratch' using ReactJS, opting out from tools like Wix because 1) I wanted full creative control
+over my representation and 2) I wanted to try my hand out in making a website from the ground up by myself. 
 
-## Available Scripts
+The website itself acts as an interactive resume for my technical skillset, providing an in-depth overview of my work history and projects. I've also included a printable resume that gives a condensed version of my more significant work. 
 
-In the project directory, you can run:
+This repository contains all source code for this project, and contains primarily front-end related work that is located 
+inside of the 'src' directory, where it is further split up into sub folders based off functionality. Tech stack is mostly ReactJS, with a bit of backend Express for hosting purposes (backend serves frontend). All Express related work can be found under 'server.js'. 
 
-### `yarn start`
+### Production
+
+During production, the Express backend hosts the React frontend, pushing all domain requests not taken care of by
+the Express routes to the frontend's index.html located at `\public\index.html`. Website itself is hosted using
+Heroku on a custom domain.
+
+### Acknowledgements
+
+Any of the non-personal project related images are not mine, but rather photos under the Creative Commons license that I am using,
+most notably from Unsplash (see [https://unsplash.com/license](license)). 
+
+The butterfly animation I would like to give credit to these CodePen authors [https://codepen.io/Thumper/pen/RxGrwM](Thumper) and [https://codepen.io/Katrine-Marie/pen/MYZNOG](Katrine-Marie Burmeister) for their code. 
+
+I also want to credit Pascal van Gemert as I used his website outline and style as a creative starting point to mold my own. His 
+website is linked [http://www.pascalvangemert.nl/#/profile](here) for reference. 
+
+## Dependencies
+
+### Node Installation
+
+Dependencies you'll need:
+
+- Node 14+
+- NPM 6+
+
+Node.js can be downloaded from here: https://nodejs.org/en/
+
+_Note_: Downloading Node will automatically download NPM for you.
+
+To verify Node installation, you can do:
+
+`node -v`
+
+To verify NPM installation, you can do:
+
+`npm -v`
+
+If you find your NPM version is out of date, you can install the latest version using:
+
+`npm install npm@latest -g`
+
+### Running Frontend (Locally)
+
+While in the `root` directory, you can run:
+
+### `npm install`
+
+### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open [http://localhost:3006](http://localhost:3006) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

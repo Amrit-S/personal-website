@@ -1,6 +1,5 @@
 .proj-entry {
     border-radius: 20px;
-    /* height: 350px; */
     background-color: white;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, .3);
     max-height: 400px;
@@ -14,8 +13,6 @@
 }
 
 .proj-entry.expanded{
-    /* display: grid; */
-    /* grid-row: span 2; */
     max-height: 600px;
     -webkit-transition: max-height 0.25s linear;
     -moz-transition: max-height 0.25s linear;
@@ -49,7 +46,7 @@
 
 .proj-entry-bg{
 
-    background: url("../media/forest-bg.jpeg") no-repeat ; 
+    background: url("../media/leaves.jpeg") no-repeat ; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
