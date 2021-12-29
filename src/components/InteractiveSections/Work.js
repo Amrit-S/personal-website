@@ -54,7 +54,7 @@ export default function Work() {
 
             <ResEntry
             leftTitle="UC San Diego"
-            dates="Sept 2019 - Present"
+            dates="Sept 2019 - Dec 2021"
             rightTitle="Computer Science Course Tutor"
             location="San Diego, USA"
             >

@@ -18,8 +18,8 @@ export default function Education() {
             <hr/>
             <ResEntry
             leftTitle="UC San Diego"
-            dates="Sept 2018 - Present"
-            rightTitle="B.S. Computer Science (Expected Dec 2021)"
+            dates="Sept 2018 - Dec 2021"
+            rightTitle="B.S. Computer Science"
             location="San Diego, USA"
             >
 
@@ -27,9 +27,9 @@ export default function Education() {
                 Computational Statistics, Software Engineering Principles, and Web Development. Elective courses primarily on 
                 Machine Learning and Databases (SQL).
                 <br/><br/>
-                Honors: Provost's Honors, Two Academic Scholarships
+                Honors: Magna Cum Laude, Provost's Honors, Two Academic Scholarships
                 <br/><br/>
-                GPA: 3.94/4.0
+                GPA: 3.93/4.0
 
             </ResEntry>
 

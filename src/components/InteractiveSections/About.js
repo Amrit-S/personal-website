@@ -29,8 +29,7 @@ export default function About({isMobile}) {
                 </div>
                 <div style={{textAlign: "left"}}>  
                     <h4> About Me </h4>
-                    I'm currently a 4th year Computer Science major studying at UC San Diego, and will
-                    be graduating in the upcoming fall of this year! I'm super excited to be joining industry full time soon, and 
+                    I've recently graduated from UC San Diego, obtaining my B.S. in Computer Science this December! I'm super excited to be joining industry full time soon, and 
                     am actively seeking a company that will be a great cultural fit. 
                     
                     <br/><br/>
