@@ -18,7 +18,7 @@ export default function About({isMobile}) {
                 <div id="headshot-container">  
                     <div className="headshot-backdrop"></div>
                     <img src={PersonalHeadshot} alt="Amrit Headshot" width="250px" height="auto" />
-                    <p> <MapMarker/> San Diego, USA</p>
+                    <p> <MapMarker/> Irvine, USA</p>
                     <div className="info">
                         <a id="github-button" href="https://github.com/Amrit-S" target="_blank" rel="noopener noreferrer" title="GitHub"> <img src="https://img.icons8.com/material-outlined/24/000000/github.png" alt="github-icon" width="25" height="25" /> </a>
                         <a id="linkedin-button" href="https://www.linkedin.com/in/amrit-kaur-singh/" target="_blank" rel="noopener noreferrer" title="LinkedIn"> <img src="https://img.icons8.com/ios-glyphs/30/000000/linkedin.png" alt="linkedin-icon" width="25" height="25" /> </a>

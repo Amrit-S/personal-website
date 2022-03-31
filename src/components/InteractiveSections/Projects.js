@@ -31,16 +31,18 @@ export default function Projects() {
                         <i> —Mowgli, The Jungle Book </i>
             </h3>
             <hr/>
-            <h4> Ongoing </h4>
+
+            <h4> Non-Profit Websites </h4>
             <div className="grid-layout">
                 <ProjEntry
                 title="Sakyadhita"
                 img={SakyadhitaImg}
                 shortDes="Revamped public website and internal modification tool for a Buddhist non-profit built on SERN stack."
                 linksArr={[
+                    {url: "https://www.sakyadhita.org/", img: EXTERNAL_LINK_ICON, title: EXTERNAL_LINK_TITLE},
                     {url: "https://github.com/TritonSE/SI-Website-Revamp", img: GITHUB_ICON, title: GITHUB_TITLE},
                 ]}
-                dates="Mar 2021 - Present"
+                dates="Mar 2021 - Mar 2022"
                 projDetails="Team &bull; Project Manager"
                 >
                     <div>
@@ -48,7 +50,7 @@ export default function Projects() {
                         <p> <b> Client Background </b> <br/> 
                         
                         Sakyadhita is a women centric Buddhist non-profit that centers around
-                        community wellness. Their current <a href="https://www.sakyadhita.org/" target="_blank" rel="noopener noreferrer"> website </a> is very visually outdated, and relies on external technical maintenance
+                        community wellness. Their previous website was very visually outdated, and relied on external technical maintenance
                         for any small updates.
                         </p>
                         <p> <b> Project Goals </b> <br/> 
@@ -57,9 +59,9 @@ export default function Projects() {
                         an internal web tool that allows authorized members to log in and be able to make modifications to the
                         website directly. 
                         </p>
-                        <p>
+                        {/* <p>
                             <b> Est. Completion Date: </b> Dec. 2021 
-                        </p>
+                        </p> */}
                         <p>
                             <b> Tech Stack: </b> SERN 
                         </p>
@@ -82,10 +84,126 @@ export default function Projects() {
                         </ul>
                     </div>
                 </ProjEntry>
+
+                <ProjEntry
+                title="Baraka & Bilal Catering"
+                img={UWEASTImg}
+                shortDes="WebApp that allows for online food ordering of East African cuisine, and site management for a San Diego non-profit. Built on MERN stack."
+                linksArr={[
+                    {url: "https://barakabilal.herokuapp.com", img: EXTERNAL_LINK_ICON, title: EXTERNAL_LINK_TITLE},
+                    {url: "https://github.com/TritonSE/UWEAST-Community-Kitchen", img: GITHUB_ICON, title: GITHUB_TITLE}
+                ]}
+                dates="Oct 2020 - Jan 2021"
+                projDetails="Team &bull; Project Manager"
+                >
+                     <div>
+                        <p> <b> Non-Profit: </b>  UWEAST </p> 
+                        <p> <b> Client Background </b> <br/> 
+                        
+                        United Women of East Africa (UWEAST) is a non-profit that provides health services and educational 
+                        opportunities for the East African community. It had started a local community kitchen 
+                        in San Diego featuring various East African foods, and wanted to expand it to a more
+                        functional catering and order service. 
+
+                        </p>
+                        <p> <b> Project Goals </b> <br/> 
+                        
+                        Project outcome was to create a food ordering web application that allowed customers to browse the
+                        menu, customize their selection, and pay for their order. It should further duel as an internal 
+                        management tool for the operators, allowing authorized users to edit the menu and view/manage placed orders.  
+                        </p>
+                        <p>
+                            <b> Tech Stack: </b> MERN 
+                        </p>
+                        <p>
+                            <b> Dependencies: </b> PayPal Smart Buttons, Material UI, Bootstrap
+                        </p>
+                        <p>
+                            <b> Hosting: </b> Heroku 
+                        </p>
+
+                        <p>
+                            <b> Team: </b> 1 Project Manager, 7 Developers 
+                        </p>
+
+                        <b> Responsibilties </b>
+                        <ul>
+                            <li> <p> Constructed project timeline, designed backend schemas/composition, and assigned tasks to developers in addition to PR code review  </p></li>
+                            <li> <p> Communicated with client for feature clarifications/adjustments, and periodic progress demos </p></li>
+                            <li> <p> Developed all accounts related information, including login and registration, utilizing JSON Web Tokens and integrated PayPal IPN </p></li>
+                        </ul>
+
+                        <b> Outcome </b>
+                        <ul>
+                            <li> <p> Client loved the final product, providing no negative feedback, and submitted a 100% satisfaction survey upon launch  </p></li>
+                            <li> <p> Due to miscommunication issues and impending deadlines, project was inherited from another team and redone from scratch at 3x the planned speed </p></li>
+                        </ul>
+                    </div>
+                </ProjEntry>
+
+                <ProjEntry
+                title="Dynamics Performance Team"
+                img={DynamicsImg}
+                shortDes="Responsive website for a San Jose based dance studio, providing a centralized platform for
+                studio information and auditions. Built using ReactJS."
+                linksArr={[
+                    {url: "https://dynamicsperformanceteam.com/#/", img: EXTERNAL_LINK_ICON, title: EXTERNAL_LINK_TITLE},
+                    {url: "https://github.com/TritonSE/DT-Website", img: GITHUB_ICON, title: GITHUB_TITLE}
+                ]}
+                dates="Jan 2019 - Jun 2019"
+                projDetails="Team &bull; Developer"
+                >
+                       <div>
+                        <p> <b> Non-Profit: </b>  Dynamics Performance Team </p> 
+                        <p> <b> Client Background </b> <br/> 
+                        
+                        Dynamics Performance Team is an award-winning dance company that trains and competes 
+                        in a wide array of musical genres. Mostly doing marketing and audtion promotions off 
+                        of various social media platforms, it lacked a central website that could encompass
+                        and convey important information regarding the studio.  
+
+                        </p>
+                        <p> <b> Project Goals </b> <br/> 
+                        
+                        Project outcome was to design and develop a customized website for the studio that would 
+                        best reflect it's creative mission, and provide any prospective dancers a chance to explore 
+                        and learn about the company. This included galleries and videos of competitions, audition 
+                        postings and requirements, information about the studio's history and artistic directors,
+                        as well subscriptions to newsletters, social media, and PayPal donations.  
+                        </p>
+                        <p>
+                            <b> Tech Stack: </b> ReactJS 
+                        </p>
+                        <p>
+                            <b> Dependencies: </b> PayPal Smart Buttons, Bootstrap
+                        </p>
+                        <p>
+                            <b> Hosting: </b> Heroku 
+                        </p>
+
+                        <p>
+                            <b> Team: </b> 1 Project Manager, 5 Developers 
+                        </p>
+
+                        <b> Responsibilties </b>
+                        <ul>
+                            <li> <p> Developed Home, Board of Directors, Gallery, and Support Us pages, including responsiveness for both desktop and mobile layouts   </p></li>
+                            <li> <p> Coded site footer, newsletter subscription dialog, in additional to PayPal Smart Button integration </p></li>
+                            <li> <p> Assisted and collaborated with developers on their assignments, and most tagged for PR Reviews  </p></li>
+                        </ul>
+
+                        <b> Outcome </b>
+                        <ul>
+                            <li> <p> Client asked for three redesigns on the website during development, but ended up loving the final aesethetics upon launch  </p></li>
+                        </ul>
+                    </div>
+                </ProjEntry>
             </div>
             <br/> <br/>
+
+            
             <hr/>
-            <h4> Completed </h4>
+            <h4> Miscellenous </h4>
 
             <div className="grid-layout">
 
@@ -213,119 +331,7 @@ export default function Projects() {
                             </p>
                     </div>
                 </ProjEntry>
-            <ProjEntry
-                title="Baraka & Bilal Catering"
-                img={UWEASTImg}
-                shortDes="WebApp that allows for online food ordering of East African cuisine, and site management for a San Diego non-profit. Built on MERN stack."
-                linksArr={[
-                    {url: "https://barakabilal.herokuapp.com", img: EXTERNAL_LINK_ICON, title: EXTERNAL_LINK_TITLE},
-                    {url: "https://github.com/TritonSE/UWEAST-Community-Kitchen", img: GITHUB_ICON, title: GITHUB_TITLE}
-                ]}
-                dates="Oct 2020 - Jan 2021"
-                projDetails="Team &bull; Project Manager"
-                >
-                     <div>
-                        <p> <b> Non-Profit: </b>  UWEAST </p> 
-                        <p> <b> Client Background </b> <br/> 
-                        
-                        United Women of East Africa (UWEAST) is a non-profit that provides health services and educational 
-                        opportunities for the East African community. It had started a local community kitchen 
-                        in San Diego featuring various East African foods, and wanted to expand it to a more
-                        functional catering and order service. 
 
-                        </p>
-                        <p> <b> Project Goals </b> <br/> 
-                        
-                        Project outcome was to create a food ordering web application that allowed customers to browse the
-                        menu, customize their selection, and pay for their order. It should further duel as an internal 
-                        management tool for the operators, allowing authorized users to edit the menu and view/manage placed orders.  
-                        </p>
-                        <p>
-                            <b> Tech Stack: </b> MERN 
-                        </p>
-                        <p>
-                            <b> Dependencies: </b> PayPal Smart Buttons, Material UI, Bootstrap
-                        </p>
-                        <p>
-                            <b> Hosting: </b> Heroku 
-                        </p>
-
-                        <p>
-                            <b> Team: </b> 1 Project Manager, 7 Developers 
-                        </p>
-
-                        <b> Responsibilties </b>
-                        <ul>
-                            <li> <p> Constructed project timeline, designed backend schemas/composition, and assigned tasks to developers in addition to PR code review  </p></li>
-                            <li> <p> Communicated with client for feature clarifications/adjustments, and periodic progress demos </p></li>
-                            <li> <p> Developed all accounts related information, including login and registration, utilizing JSON Web Tokens and integrated PayPal IPN </p></li>
-                        </ul>
-
-                        <b> Outcome </b>
-                        <ul>
-                            <li> <p> Client loved the final product, providing no negative feedback, and submitted a 100% satisfaction survey upon launch  </p></li>
-                            <li> <p> Due to miscommunication issues and impending deadlines, project was inherited from another team and redone from scratch at 3x the planned speed </p></li>
-                        </ul>
-                    </div>
-                </ProjEntry>
-            
-            <ProjEntry
-                title="Dynamics Performance Team"
-                img={DynamicsImg}
-                shortDes="Responsive website for a San Jose based dance studio, providing a centralized platform for
-                studio information and auditions. Built using ReactJS."
-                linksArr={[
-                    {url: "https://dynamicsperformanceteam.com/#/", img: EXTERNAL_LINK_ICON, title: EXTERNAL_LINK_TITLE},
-                    {url: "https://github.com/TritonSE/DT-Website", img: GITHUB_ICON, title: GITHUB_TITLE}
-                ]}
-                dates="Jan 2019 - Jun 2019"
-                projDetails="Team &bull; Developer"
-                >
-                       <div>
-                        <p> <b> Non-Profit: </b>  Dynamics Performance Team </p> 
-                        <p> <b> Client Background </b> <br/> 
-                        
-                        Dynamics Performance Team is an award-winning dance company that trains and competes 
-                        in a wide array of musical genres. Mostly doing marketing and audtion promotions off 
-                        of various social media platforms, it lacked a central website that could encompass
-                        and convey important information regarding the studio.  
-
-                        </p>
-                        <p> <b> Project Goals </b> <br/> 
-                        
-                        Project outcome was to design and develop a customized website for the studio that would 
-                        best reflect it's creative mission, and provide any prospective dancers a chance to explore 
-                        and learn about the company. This included galleries and videos of competitions, audition 
-                        postings and requirements, information about the studio's history and artistic directors,
-                        as well subscriptions to newsletters, social media, and PayPal donations.  
-                        </p>
-                        <p>
-                            <b> Tech Stack: </b> ReactJS 
-                        </p>
-                        <p>
-                            <b> Dependencies: </b> PayPal Smart Buttons, Bootstrap
-                        </p>
-                        <p>
-                            <b> Hosting: </b> Heroku 
-                        </p>
-
-                        <p>
-                            <b> Team: </b> 1 Project Manager, 5 Developers 
-                        </p>
-
-                        <b> Responsibilties </b>
-                        <ul>
-                            <li> <p> Developed Home, Board of Directors, Gallery, and Support Us pages, including responsiveness for both desktop and mobile layouts   </p></li>
-                            <li> <p> Coded site footer, newsletter subscription dialog, in additional to PayPal Smart Button integration </p></li>
-                            <li> <p> Assisted and collaborated with developers on their assignments, and most tagged for PR Reviews  </p></li>
-                        </ul>
-
-                        <b> Outcome </b>
-                        <ul>
-                            <li> <p> Client asked for three redesigns on the website during development, but ended up loving the final aesethetics upon launch  </p></li>
-                        </ul>
-                    </div>
-                </ProjEntry>
 
             {/* <ProjEntry
                 title="TSE Internal Recruitment Tool"
